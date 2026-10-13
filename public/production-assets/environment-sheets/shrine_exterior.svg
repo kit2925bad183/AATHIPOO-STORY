@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="shrineSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="60%" stop-color="#3d2d1e"/>
+      <stop offset="100%" stop-color="#7c4a24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#14110e"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — ENVIRONMENT CONCEPT SHEET 06: MODEST SHRINE EXTERIOR</text>
+  <text x="960" y="82" fill="#a89078" font-size="18">HUMAN-SCALE EARLY TAMIL KOTTAM (கோட்டம்) &amp; SACRED ENCLOSURE</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">ENV-06-SHRINE-EXT</text>
+
+  <!-- Perspective Render View -->
+  <g transform="translate(50, 130)">
+    <rect width="1500" height="480" fill="url(#shrineSky)" rx="8"/>
+
+    <!-- Distant Lane Dwellings -->
+    <rect x="80" y="220" width="180" height="120" fill="#523e30"/>
+    <polygon points="60,220 170,160 280,220" fill="#733b26"/>
+    <rect x="1220" y="210" width="200" height="130" fill="#523e30"/>
+    <polygon points="1200,210 1320,150 1440,210" fill="#733b26"/>
+
+    <!-- Ground: Packed Earth of Residential Lane -->
+    <rect x="0" y="320" width="1500" height="160" fill="#423427"/>
+
+    <!-- Low Brick Enclosure (Kottam Boundary Wall - 0.9m human scale) -->
+    <g transform="translate(480, 240)">
+      <!-- Outer perimeter wall -->
+      <rect x="0" y="80" width="540" height="75" fill="#7a4230" stroke="#522a1d" stroke-width="2"/>
+      <!-- Low Entrance Opening in Center -->
+      <rect x="220" y="80" width="100" height="75" fill="#423427"/>
+      <!-- Timber Gate Jamb Posts -->
+      <rect x="210" y="55" width="14" height="100" fill="#362215"/>
+      <rect x="316" y="55" width="14" height="100" fill="#362215"/>
+      <rect x="200" y="50" width="140" height="12" fill="#2b1a10"/>
+
+      <!-- Inner Modest Sanctum Structure (Height 2.8m, Timber Posts, Terracotta Tile Roof) -->
+      <rect x="150" y="-30" width="240" height="110" fill="#694d3c" stroke="#523a2b" stroke-width="2"/>
+      <polygon points="120,-30 270,-110 420,-30" fill="#8c3e27"/>
+      <!-- Sanctum Doorway with faint warm oil lamp glow inside -->
+      <rect x="235" y="10" width="70" height="70" fill="#2b1d14"/>
+      <circle cx="270" cy="50" r="14" fill="#ffaa44" opacity="0.8"/>
+
+      <!-- Corner Blooming Aathi Tree inside Enclosure -->
+      <g transform="translate(80, -40)">
+        <circle cx="0" cy="40" r="48" fill="#2d5224"/>
+        <rect x="-6" y="80" width="12" height="60" fill="#332417"/>
+        <!-- White Aathipoo flower blossoms -->
+        {[[-18, 25], [15, 30], [-5, 55], [24, 45], [-12, 60]].map(([x, y], i) => (
+          <circle key={i} cx={x} cy={y} r={4.5} fill="#ffffff"/>
+        ))}
+      </g>
+    </g>
+
+    <text x="750" y="440" fill="#fcd34d" font-size="16" font-weight="bold" text-anchor="middle">சங்க கால எளிய கோட்டம் (Early Historic Modest Sacred Enclosure)</text>
+    <text x="750" y="462" fill="#d1d5db" font-size="13" text-anchor="middle">Baked-brick and timber construction, human-scale entrance, without later gopurams</text>
+  </g>
+
+  <!-- Research Gate & Historical Archaeology Panel -->
+  <rect x="50" y="630" width="1500" height="330" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="75" y="665" fill="#f59e0b" font-size="18" font-weight="bold">HISTORICAL SANCTUARY ARCHAEOLOGY &amp; CHRONOLOGICAL FIDELITY</text>
+
+  <g transform="translate(75, 690)">
+    <rect x="0" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="20" y="30" fill="#fcd34d" font-size="15" font-weight="bold">1. இலக்கிய ஆதாரம் (Literary Foundation)</text>
+    <text x="20" y="60" fill="#e5e7eb" font-size="13">Primary source: <tspan fill="#f59e0b">Perumpanarruppadai &amp; Pattinappalai</tspan></text>
+    <text x="20" y="85" fill="#d1d5db" font-size="12">"கோட்டம்… கந்துடை நனந்தலை"</text>
+    <text x="20" y="110" fill="#9ca3af" font-size="12">• Early historic sacred spaces were intimate, open enclosures.</text>
+    <text x="20" y="130" fill="#9ca3af" font-size="12">• Built using treated timber, clay plaster, and fired brick.</text>
+    <text x="20" y="150" fill="#9ca3af" font-size="12">• Natural light and ventilation rather than cavernous granite halls.</text>
+    <text x="20" y="180" fill="#34d399" font-size="11">Classification: Tier A / Tier B Hybrid</text>
+
+    <rect x="490" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="510" y="30" fill="#fcd34d" font-size="15" font-weight="bold">2. அகழாய்வுச் சான்றுகள் (Archaeological Corroboration)</text>
+    <text x="510" y="60" fill="#e5e7eb" font-size="13">Excavations: <tspan fill="#f59e0b">Kaveripumpattinam &amp; Uraiyur ASI</tspan></text>
+    <text x="510" y="85" fill="#d1d5db" font-size="12">• Found low brick enclosures dating to 1st c. BCE – 2nd c. CE.</text>
+    <text x="510" y="110" fill="#9ca3af" font-size="12">• Brick dimensions: large Sangam bricks (~38 x 20 x 7 cm).</text>
+    <text x="510" y="130" fill="#9ca3af" font-size="12">• Terracotta ring wells and simple votive lamps nearby.</text>
+    <text x="510" y="150" fill="#9ca3af" font-size="12">• Evidence confirms non-monumental scale of sacred spaces.</text>
+    <text x="510" y="180" fill="#34d399" font-size="11">Classification: Tier A (Archaeologically Supported)</text>
+
+    <rect x="980" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="1000" y="30" fill="#fcd34d" font-size="15" font-weight="bold">3. பிற்காலக் கூறுகள் தவிர்ப்பு (Omission Rules)</text>
+    <text x="1000" y="60" fill="#ef4444" font-size="13">Strict architectural guardrails:</text>
+    <text x="1000" y="85" fill="#d1d5db" font-size="12">• NO Brihadisvara / Tanjore-style stone vimanas (11th c. CE).</text>
+    <text x="1000" y="105" fill="#d1d5db" font-size="12">• NO soaring multi-tiered stone gopurams (13th-16th c. CE).</text>
+    <text x="1000" y="125" fill="#d1d5db" font-size="12">• NO medieval lost-wax Chola bronzes without Sangam dating.</text>
+    <text x="1000" y="145" fill="#d1d5db" font-size="12">• NO loudspeakers, modern donation boxes, or painted stucco.</text>
+    <text x="1000" y="170" fill="#ef4444" font-size="11">Classification: Tier C (Mandatory Exclusion)</text>
+  </g>
+</svg>

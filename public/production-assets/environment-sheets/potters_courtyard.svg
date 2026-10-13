@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8c6a51"/>
+      <stop offset="100%" stop-color="#694d38"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4535"/>
+      <stop offset="100%" stop-color="#3d2c20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#14110e"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — ENVIRONMENT CONCEPT SHEET 02: POTTER'S COURTYARD</text>
+  <text x="910" y="82" fill="#a89078" font-size="18">WORKING COURTYARD, DRYING RACKS, KILN PIT, &amp; SANGAM CRAFT LIFE</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">ENV-02-POTTERY</text>
+
+  <!-- Main Perspective Render View -->
+  <g transform="translate(50, 130)">
+    <rect width="1500" height="480" fill="url(#groundGrad)" rx="8"/>
+
+    <!-- Distant Cottages & Thatch Roofs -->
+    <polygon points="120,240 280,140 440,240" fill="#9c4528"/>
+    <rect x="150" y="240" width="260" height="120" fill="url(#wallGrad)"/>
+    <rect x="240" y="270" width="60" height="90" fill="#2b1c12"/>
+
+    <!-- Raised Veranda (Thinnai) with Pillars -->
+    <rect x="130" y="330" width="300" height="30" fill="#4a3526"/>
+    <rect x="160" y="240" width="14" height="90" fill="#26180e"/>
+    <rect x="380" y="240" width="14" height="90" fill="#26180e"/>
+
+    <!-- Left: Multi-tiered Pottery Drying Rack -->
+    <g transform="translate(560, 200)">
+      <rect x="0" y="0" width="12" height="180" fill="#362417"/>
+      <rect x="260" y="0" width="12" height="180" fill="#362417"/>
+      <rect x="-10" y="40" width="290" height="10" fill="#4d3523"/>
+      <rect x="-10" y="95" width="290" height="10" fill="#4d3523"/>
+      <rect x="-10" y="150" width="290" height="10" fill="#4d3523"/>
+      <!-- Terracotta Pots Drying on Racks -->
+      {[20, 80, 140, 200].map((x, i) => (
+        <circle key={`p1_${i}`} cx={x + 20} cy={30} r={18} fill="#b55838"/>
+      ))}
+      {[35, 105, 175, 230].map((x, i) => (
+        <circle key={`p2_${i}`} cx={x} cy={85} r={16} fill="#a1492b"/>
+      ))}
+    </g>
+
+    <!-- Center Foreground: Potter's Wheel (Thigiri) Pit -->
+    <g transform="translate(940, 260)">
+      <!-- Stone pit base -->
+      <ellipse cx="120" cy="140" rx="90" ry="24" fill="#2e231a"/>
+      <!-- Stone rotating wheel disc -->
+      <ellipse cx="120" cy="130" rx="80" ry="20" fill="#473b32"/>
+      <!-- Moist clay cone lump on center -->
+      <ellipse cx="120" cy="115" rx="28" ry="16" fill="#8c472d"/>
+      <rect x="106" y="100" width="28" height="20" fill="#8c472d"/>
+      <text x="120" y="175" fill="#fcd34d" font-size="13" font-weight="bold" text-anchor="middle">குயவர் திகிரி (Rotating Potter's Wheel)</text>
+    </g>
+
+    <!-- Right: Clay Prep Pit with Sediment Water Basin -->
+    <g transform="translate(1240, 220)">
+      <rect x="0" y="40" width="200" height="120" fill="#423326" rx="6" stroke="#291c13" stroke-width="2"/>
+      <ellipse cx="70" cy="90" rx="45" ry="30" fill="#6e3f2c"/>
+      <circle cx="150" cy="90" r="28" fill="#8c4a30"/>
+      <circle cx="150" cy="90" r="22" fill="#2d5e73"/>
+      <text x="100" y="180" fill="#fcd34d" font-size="13" font-weight="bold" text-anchor="middle">களிமண் பதப்படுத்தும் தொட்டி (Clay Basin)</text>
+    </g>
+
+    <!-- Center Left: Peripheral Sunken Kiln Firing Area -->
+    <g transform="translate(100, 370)">
+      <ellipse cx="60" cy="50" rx="50" ry="20" fill="#241911"/>
+      <rect x="25" y="25" width="20" height="35" fill="#7a3e28"/>
+      <rect x="75" y="25" width="20" height="35" fill="#7a3e28"/>
+      <text x="60" y="90" fill="#fcd34d" font-size="12" font-weight="bold" text-anchor="middle">சுடுமண் சூளை (Sunken Kiln Trench)</text>
+    </g>
+  </g>
+
+  <!-- Technical Details & Literary Sources Panel -->
+  <rect x="50" y="630" width="1500" height="330" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="75" y="665" fill="#f59e0b" font-size="18" font-weight="bold">ARCHAEOLOGICAL &amp; LITERARY FIDELITY NOTES</text>
+
+  <g transform="translate(75, 690)">
+    <rect x="0" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="20" y="30" fill="#fcd34d" font-size="15" font-weight="bold">1. திகிரி (The Potter's Wheel)</text>
+    <text x="20" y="60" fill="#e5e7eb" font-size="13">Primary source: <tspan fill="#f59e0b">Purananuru 228 &amp; 256</tspan></text>
+    <text x="20" y="85" fill="#d1d5db" font-size="12">"கலம் செய் கோவே… திகிரி போல"</text>
+    <text x="20" y="110" fill="#9ca3af" font-size="12">• Low pivot socket set into clay-rammed courtyard.</text>
+    <text x="20" y="130" fill="#9ca3af" font-size="12">• Balanced stone fly-wheel turned with tamarind stick.</text>
+    <text x="20" y="150" fill="#9ca3af" font-size="12">• Fine Kaveri river silt clay shaped by hand.</text>
+    <text x="20" y="180" fill="#34d399" font-size="11">Classification: Tier A (Directly Supported)</text>
+
+    <rect x="490" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="510" y="30" fill="#fcd34d" font-size="15" font-weight="bold">2. சூளை &amp; கலன்கள் (Kiln &amp; Black/Red Ware)</text>
+    <text x="510" y="60" fill="#e5e7eb" font-size="13">Archaeology: <tspan fill="#f59e0b">ASI Uraiyur Excavations (1965-69)</tspan></text>
+    <text x="510" y="85" fill="#d1d5db" font-size="12">Excavator: Prof. K.V. Raman (Univ. of Madras)</text>
+    <text x="510" y="110" fill="#9ca3af" font-size="12">• Uncovered pottery kilns, clay tuyeres, and figurines.</text>
+    <text x="510" y="130" fill="#9ca3af" font-size="12">• High-frequency black-and-red ware sherds.</text>
+    <text x="510" y="150" fill="#9ca3af" font-size="12">• Terracotta toy horses with incised geometric reins.</text>
+    <text x="510" y="180" fill="#34d399" font-size="11">Classification: Tier A (Directly Supported)</text>
+
+    <rect x="980" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="1000" y="30" fill="#fcd34d" font-size="15" font-weight="bold">3. இல்ல அமைப்பு (Dwelling Architecture)</text>
+    <text x="1000" y="60" fill="#e5e7eb" font-size="13">Primary source: <tspan fill="#f59e0b">Perumpanarruppadai 297-305</tspan></text>
+    <text x="1000" y="85" fill="#d1d5db" font-size="12">• Timber posts with wattle-and-daub clay plaster.</text>
+    <text x="1000" y="110" fill="#9ca3af" font-size="12">• Pitched roofs covered in grooved terracotta tiles (*odu*).</text>
+    <text x="1000" y="130" fill="#9ca3af" font-size="12">• Shaded open *thinnai* verandas for domestic social life.</text>
+    <text x="1000" y="150" fill="#9ca3af" font-size="12">• Woven wicker palm screen partitions.</text>
+    <text x="1000" y="180" fill="#34d399" font-size="11">Classification: Tier A / Tier B Hybrid</text>
+  </g>
+</svg>

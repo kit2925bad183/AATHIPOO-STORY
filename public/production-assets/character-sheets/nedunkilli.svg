@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181410"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a06d45"/>
+      <stop offset="100%" stop-color="#8f5c35"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d5e44"/>
+      <stop offset="100%" stop-color="#244b36"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d49a30"/>
+      <stop offset="100%" stop-color="#9e701e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — PRODUCTION CHARACTER REFERENCE SHEET</text>
+  <text x="750" y="82" fill="#a89078" font-size="20">CHARACTER: NEDUNKILLI (நெடுங்கிள்ளி) • BESIEGED FORT CHOLA KING • SCALE: 1.78m (1.02x)</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">SHEET ID: CH-07-NDN</text>
+
+  <!-- Panel 1: Turnarounds A, B, C, D -->
+  <rect x="40" y="130" width="820" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="160" fill="#f59e0b" font-size="16" font-weight="600">ORTHOGRAPHIC TURNAROUND (VIEWS A, B, C, D)</text>
+
+  <!-- Front A -->
+  <g transform="translate(110, 190)">
+    <ellipse cx="60" cy="325" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <rect x="63" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <path d="M 36 170 L 84 170 L 88 305 L 32 305 Z" fill="url(#green)"/>
+    <rect x="40" y="105" width="40" height="70" rx="6" fill="#8f5c35"/>
+    <!-- Bronze Torc & Collar -->
+    <path d="M 46 106 Q 60 120 74 106" stroke="url(#bronze)" stroke-width="6" fill="none"/>
+    <!-- Aathipoo White Garland -->
+    <path d="M 42 110 Q 60 148 78 110" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <ellipse cx="60" cy="70" rx="20" ry="24" fill="url(#skin)"/>
+    <!-- Distinct crown & goatee -->
+    <path d="M 44 56 L 76 56 L 72 50 L 48 50 Z" fill="url(#bronze)"/>
+    <path d="M 54 82 Q 60 94 66 82 Z" fill="#181412"/>
+    <text x="60" y="355" fill="#9ca3af" font-size="13" text-anchor="middle">A. FRONT</text>
+  </g>
+
+  <!-- Profile B -->
+  <g transform="translate(310, 190)">
+    <ellipse cx="60" cy="325" rx="45" ry="8" fill="#0d0a08"/>
+    <rect x="50" y="310" width="20" height="12" rx="4" fill="#8f5c35"/>
+    <path d="M 40 170 L 76 170 L 74 305 L 38 305 Z" fill="url(#green)"/>
+    <rect x="42" y="105" width="34" height="70" rx="6" fill="#8f5c35"/>
+    <ellipse cx="58" cy="70" rx="19" ry="24" fill="url(#skin)"/>
+    <text x="60" y="355" fill="#9ca3af" font-size="13" text-anchor="middle">B. LEFT PROFILE</text>
+  </g>
+
+  <!-- Back C -->
+  <g transform="translate(510, 190)">
+    <ellipse cx="60" cy="325" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <rect x="63" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <path d="M 34 105 L 86 105 L 86 305 L 34 305 Z" fill="url(#green)"/>
+    <ellipse cx="60" cy="68" rx="20" ry="24" fill="#181412"/>
+    <text x="60" y="355" fill="#9ca3af" font-size="13" text-anchor="middle">C. BACK VIEW</text>
+  </g>
+
+  <!-- 3/4 D -->
+  <g transform="translate(710, 190)">
+    <ellipse cx="60" cy="325" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="44" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <rect x="66" y="310" width="15" height="12" rx="4" fill="#8f5c35"/>
+    <path d="M 36 170 L 84 170 L 84 305 L 34 305 Z" fill="url(#green)"/>
+    <ellipse cx="62" cy="70" rx="20" ry="24" fill="url(#skin)"/>
+    <text x="60" y="355" fill="#9ca3af" font-size="13" text-anchor="middle">D. 3/4 HERO ANGLE</text>
+  </g>
+
+  <!-- View E: Face Close-up -->
+  <rect x="880" y="130" width="320" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW E: FACE &amp; GUARDED EYE</text>
+  <g transform="translate(930, 190)">
+    <ellipse cx="110" cy="140" rx="85" ry="105" fill="url(#skin)"/>
+    <!-- Crown band -->
+    <path d="M 30 75 L 190 75 L 175 60 L 45 60 Z" fill="url(#bronze)"/>
+    <!-- Guarded brow -->
+    <path d="M 52 110 Q 74 102 94 112" stroke="#1c140d" stroke-width="5" fill="none"/>
+    <path d="M 126 112 Q 146 102 168 110" stroke="#1c140d" stroke-width="5" fill="none"/>
+    <ellipse cx="75" cy="128" rx="14" ry="8" fill="#ffffff"/>
+    <circle cx="75" cy="128" r="5.5" fill="#1a1008"/>
+    <ellipse cx="145" cy="128" rx="14" ry="8" fill="#ffffff"/>
+    <circle cx="145" cy="128" r="5.5" fill="#1a1008"/>
+    <!-- Goatee -->
+    <path d="M 98 185 Q 110 215 122 185 Z" fill="#181412"/>
+    <text x="110" y="310" fill="#a89078" font-size="12" text-anchor="middle">GUARDED SOVEREIGN DEFENDING URATHAI FORT</text>
+  </g>
+
+  <!-- View G: Materials -->
+  <rect x="1220" y="130" width="340" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="1240" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW G: MATERIAL SWATCHES</text>
+  <g transform="translate(1240, 185)">
+    <circle cx="25" cy="25" r="20" fill="#8f5c35" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="22" fill="#e5e7eb" font-size="14" font-weight="bold">Skin: Olive Copper (#8f5c35)</text>
+    <text x="60" y="38" fill="#9ca3af" font-size="11">Roughness: 0.52 • Palatial Tone</text>
+
+    <circle cx="25" cy="85" r="20" fill="#244b36" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="82" fill="#e5e7eb" font-size="14" font-weight="bold">Garment: Citadel Green (#244b36)</text>
+    <text x="60" y="98" fill="#9ca3af" font-size="11">Roughness: 0.42 • Fort Royal Silk</text>
+
+    <circle cx="25" cy="145" r="20" fill="#d49a30" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="142" fill="#e5e7eb" font-size="14" font-weight="bold">Torc: Bronze Neck Collar (#d49a30)</text>
+    <text x="60" y="158" fill="#9ca3af" font-size="11">Metalness: 0.80 • Roughness: 0.30</text>
+
+    <circle cx="25" cy="205" r="20" fill="#ffffff" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="202" fill="#e5e7eb" font-size="14" font-weight="bold">Garland: Aathipoo Bloom (#ffffff)</text>
+    <text x="60" y="218" fill="#9ca3af" font-size="11">Identical Sangam Dynasty Heritage</text>
+  </g>
+
+  <!-- View F: 8 Expressions -->
+  <rect x="40" y="570" width="820" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEW F: EIGHT-EXPRESSION MATRIX (THE GUARDED RULER)</text>
+  <g transform="translate(60, 620)">
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <ellipse cx="32" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <path d="M 38 62 L 52 62" stroke="#8c4732" stroke-width="3"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">1. Guarded Neutral</text>
+    </g>
+    <g transform="translate(190, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 50 24 Q 60 18 70 24" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">2. Throne Lean</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 35 58 Q 45 68 55 58" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">3. Grateful Nod</text>
+    </g>
+    <g transform="translate(570, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 32 Q 33 26 41 30" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 49 30 Q 57 26 65 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">4. Siege Strain</text>
+    </g>
+    <g transform="translate(0, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <circle cx="32" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="32" cy="38" r="3.5" fill="#1a1008"/>
+      <circle cx="58" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="58" cy="38" r="3.5" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">5. Fear of Breach</text>
+    </g>
+    <g transform="translate(190, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 28 L 40 33" stroke="#1c140d" stroke-width="3.5"/>
+      <path d="M 50 33 L 65 28" stroke="#1c140d" stroke-width="3.5"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">6. Defiance</text>
+    </g>
+    <g transform="translate(380, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 35 Q 33 26 40 31" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 31 Q 57 26 64 35" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">7. Sadness</text>
+    </g>
+    <g transform="translate(570, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 41 Q 33 45 38 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 52 41 Q 57 45 62 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">8. Relief at Gates</text>
+    </g>
+  </g>
+
+  <!-- Views H, I, J -->
+  <rect x="880" y="570" width="680" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEWS H, I, J: RIG SKELETON &amp; SIGNATURE POSES</text>
+  <g transform="translate(910, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">I. RIG HIERARCHY (36 BONES)</text>
+    <path d="M 80 45 L 80 85 L 80 145 M 80 65 L 45 85 L 30 135 M 80 65 L 115 85 L 130 135 M 80 145 L 56 205 L 56 272 M 80 145 L 104 205 L 104 272" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="80" cy="45" r="5" fill="#34d399"/>
+    <circle cx="56" cy="272" r="4" fill="#ef4444"/>
+    <circle cx="104" cy="272" r="4" fill="#ef4444"/>
+    <text x="80" y="295" fill="#9ca3af" font-size="11" text-anchor="middle">Throne Seating IK &amp; Scepter Pivot</text>
+  </g>
+
+  <g transform="translate(1110, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">J. SIX SIGNATURE ACTING POSES</text>
+    <text x="0" y="55" fill="#f3f4f6" font-size="13">1. <tspan fill="#f59e0b">Throne Weighing:</tspan> Chin on knuckles evaluating siege terms</text>
+    <text x="0" y="85" fill="#f3f4f6" font-size="13">2. <tspan fill="#f59e0b">Anxious Pacing:</tspan> Measured strides before throne dias</text>
+    <text x="0" y="115" fill="#f3f4f6" font-size="13">3. <tspan fill="#f59e0b">Poet Deference:</tspan> Folding palms together in reverent reception</text>
+    <text x="0" y="145" fill="#f3f4f6" font-size="13">4. <tspan fill="#f59e0b">Wall Stare:</tspan> Gazing down at Ilangathir's lifted flowers</text>
+    <text x="0" y="175" fill="#f59e0b">5. <tspan fill="#f59e0b">Shoulder Drop:</tspan> Physical release of fort paranoia</text>
+    <text x="0" y="205" fill="#f3f4f6" font-size="13">6. <tspan fill="#f59e0b">Unbar Gates:</tspan> Ordering heavy citadel timbers thrown open</text>
+
+    <rect x="0" y="235" width="410" height="60" fill="#14110e" rx="6" stroke="#443427"/>
+    <text x="15" y="258" fill="#d97706" font-size="12" font-weight="bold">SEQUENCE 4 &amp; SEQUENCE 8</text>
+    <text x="15" y="278" fill="#9ca3af" font-size="11">Citadel hall reception &amp; Ceasefire agreement from walls</text>
+  </g>
+</svg>

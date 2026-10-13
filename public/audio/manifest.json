@@ -1,0 +1,409 @@
+{
+  "project": "Aathipoo — Vaalai Niruthiya Thamizh",
+  "totalRuntimeSeconds": 1200,
+  "totalDialogueLines": 40,
+  "recordingStatus": "pending_studio_voiceover",
+  "note": "Studio Tamil voice recordings are pending. Film uses real-time procedural Web Audio soundscapes, music, and browser Tamil SpeechSynthesis / acoustic mouth envelope synchronization.",
+  "clips": [
+    {
+      "clipId": "clip_001_ilangathir",
+      "startTime": 24,
+      "duration": 9,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அப்பா… என் குதிரை ஏன் நிற்க மாட்டேங்குது?",
+      "textEn": "Father… why won’t my horse stand?",
+      "expectedFile": "/audio/dialogue/clip_001_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_002_sembiyan",
+      "startTime": 35,
+      "duration": 11,
+      "character": "sembiyan",
+      "speakerTa": "செம்பியன்",
+      "textTa": "இரண்டு காலையும் நீ வேற வேற பக்கம் இழுத்திருக்கே. ஒன்றாகத் தாங்கினால்தான் நிற்கும்.",
+      "textEn": "You pulled both legs in different directions. Only when they support together will it stand.",
+      "expectedFile": "/audio/dialogue/clip_002_sembiyan.mp3"
+    },
+    {
+      "clipId": "clip_003_arumbu",
+      "startTime": 64,
+      "duration": 10,
+      "character": "arumbu",
+      "speakerTa": "அரும்பு",
+      "textTa": "உணவு ஆறிடப் போகுது, எல்லாரும் வாங்க!",
+      "textEn": "The food is getting cold, everyone come!",
+      "expectedFile": "/audio/dialogue/clip_003_arumbu.mp3"
+    },
+    {
+      "clipId": "clip_004_narration",
+      "startTime": 104,
+      "duration": 14,
+      "character": "narration",
+      "speakerTa": "விளக்க உரை",
+      "textTa": "ஒரே மண்ணில் பிறந்தவர்கள்… ஒரு நாள் அந்த மண்ணையே தங்களுக்குள் பிரித்துக்கொள்ள நின்றார்கள்.",
+      "textEn": "Born of the same soil… one day they stood to divide that very soil among themselves.",
+      "expectedFile": "/audio/dialogue/clip_004_narration.mp3"
+    },
+    {
+      "clipId": "clip_005_ilangathir",
+      "startTime": 180,
+      "duration": 12,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அண்ணன் வென்றால் அப்பா திரும்ப மாட்டாரா?",
+      "textEn": "If brother wins, will father never return?",
+      "expectedFile": "/audio/dialogue/clip_005_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_006_ilangathir",
+      "startTime": 194,
+      "duration": 8,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அப்பா வென்றால்… அண்ணன்?",
+      "textEn": "If father wins… what of brother?",
+      "expectedFile": "/audio/dialogue/clip_006_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_007_arumbu",
+      "startTime": 204,
+      "duration": 14,
+      "character": "arumbu",
+      "speakerTa": "அரும்பு",
+      "textTa": "எனக்கு யார் வென்றாலும் வேண்டாம். இருவரும் வீட்டுக்கு வந்தால் போதும்.",
+      "textEn": "I do not care who wins. It is enough if both return home.",
+      "expectedFile": "/audio/dialogue/clip_007_arumbu.mp3"
+    },
+    {
+      "clipId": "clip_008_ilangathir",
+      "startTime": 304,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "நீங்கள் அரசர்களிடம் பேசுவீர்களா?",
+      "textEn": "Will you speak to the kings?",
+      "expectedFile": "/audio/dialogue/clip_008_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_009_kovur_kizhar",
+      "startTime": 316,
+      "duration": 14,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "அவர்கள் கேட்கத் தயாராக இருந்தால் பேசுவேன். இல்லாவிட்டாலும் சொல்ல வேண்டியதைச் சொல்வேன்.",
+      "textEn": "If they are ready to listen, I will speak. Even if not, I will speak what must be said.",
+      "expectedFile": "/audio/dialogue/clip_009_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_010_ilangathir",
+      "startTime": 332,
+      "duration": 8,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அப்படின்னா போரை நிறுத்தச் சொல்லுங்கள்.",
+      "textEn": "Then ask them to stop the war.",
+      "expectedFile": "/audio/dialogue/clip_010_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_011_ilangathir",
+      "startTime": 342,
+      "duration": 14,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "எங்க அப்பாவும் அண்ணனும் சண்டை போட்டதில்லை. இப்போ மட்டும் ஏன் ஒருவரை ஒருவர் கொல்லணும்?",
+      "textEn": "My father and brother have never fought. Why must they kill each other now?",
+      "expectedFile": "/audio/dialogue/clip_011_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_012_kovur_kizhar",
+      "startTime": 358,
+      "duration": 8,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "உன் கேள்வியை அரசனிடம் எடுத்துச் செல்வோம்.",
+      "textEn": "We shall take your question to the king.",
+      "expectedFile": "/audio/dialogue/clip_012_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_013_nedunkilli",
+      "startTime": 394,
+      "duration": 14,
+      "character": "nedunkilli",
+      "speakerTa": "நெடுங்கிள்ளி",
+      "textTa": "எதிரி என் வாயிலில் நிற்கிறான். நான் கதவைத் திறந்து தலைகுனிய வேண்டுமா?",
+      "textEn": "The enemy stands at my gate. Should I open the doors and bow my head?",
+      "expectedFile": "/audio/dialogue/clip_013_nedunkilli.mp3"
+    },
+    {
+      "clipId": "clip_014_kovur_kizhar",
+      "startTime": 410,
+      "duration": 14,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "கதவுக்கு வெளியே உன் பகை இருக்கலாம். உள்ளே உன் மக்கள் இருக்கிறார்கள்.",
+      "textEn": "Outside the gate may be your foe. But inside are your people.",
+      "expectedFile": "/audio/dialogue/clip_014_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_015_ilangathir",
+      "startTime": 426,
+      "duration": 16,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "வெளியில் என் அப்பா இருக்கிறார். அவர் உள்ளே வந்தால்… அவரையும் எதிரின்னு சொல்வீங்களா?",
+      "textEn": "Outside is my father. If he comes inside… will you call him an enemy too?",
+      "expectedFile": "/audio/dialogue/clip_015_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_016_maaran",
+      "startTime": 458,
+      "duration": 8,
+      "character": "maaran",
+      "speakerTa": "மாறன்",
+      "textTa": "நீ இங்கே வரக்கூடாது.",
+      "textEn": "You should not have come here.",
+      "expectedFile": "/audio/dialogue/clip_016_maaran.mp3"
+    },
+    {
+      "clipId": "clip_017_ilangathir",
+      "startTime": 468,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "நீ வீட்டுக்கு வந்தா நான் வர மாட்டேன்.",
+      "textEn": "If you come home, I won’t come.",
+      "expectedFile": "/audio/dialogue/clip_017_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_018_ilangathir",
+      "startTime": 526,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "இவர்களும் நம்ம ஊர் ஆட்கள் மாதிரியே இருக்காங்க.",
+      "textEn": "These people look just like our villagers.",
+      "expectedFile": "/audio/dialogue/clip_018_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_019_kovur_kizhar",
+      "startTime": 538,
+      "duration": 8,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "இவர்களுக்கும் வீடு இருக்கிறது, இளங்கதிர்.",
+      "textEn": "They too have homes, Ilangathir.",
+      "expectedFile": "/audio/dialogue/clip_019_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_020_sembiyan",
+      "startTime": 562,
+      "duration": 6,
+      "character": "sembiyan",
+      "speakerTa": "செம்பியன்",
+      "textTa": "அம்மா? மாறன்?",
+      "textEn": "Mother? Maaran?",
+      "expectedFile": "/audio/dialogue/clip_020_sembiyan.mp3"
+    },
+    {
+      "clipId": "clip_021_ilangathir",
+      "startTime": 570,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "உங்களைப் பற்றித்தான் கேட்டுக்கிட்டிருக்காங்க.",
+      "textEn": "They were asking about you.",
+      "expectedFile": "/audio/dialogue/clip_021_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_022_nalankilli",
+      "startTime": 618,
+      "duration": 10,
+      "character": "nalankilli",
+      "speakerTa": "நலங்கிள்ளி",
+      "textTa": "விடியும்போது முற்றுகையை முடிப்பேன்.",
+      "textEn": "At dawn I shall end the siege.",
+      "expectedFile": "/audio/dialogue/clip_022_nalankilli.mp3"
+    },
+    {
+      "clipId": "clip_023_kovur_kizhar",
+      "startTime": 630,
+      "duration": 6,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "அதன்பிறகு?",
+      "textEn": "And after that?",
+      "expectedFile": "/audio/dialogue/clip_023_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_024_nalankilli",
+      "startTime": 638,
+      "duration": 8,
+      "character": "nalankilli",
+      "speakerTa": "நலங்கிள்ளி",
+      "textTa": "உறையூர் என் ஆட்சிக்குள் வரும்.",
+      "textEn": "Uraiyur will come under my rule.",
+      "expectedFile": "/audio/dialogue/clip_024_nalankilli.mp3"
+    },
+    {
+      "clipId": "clip_025_kovur_kizhar",
+      "startTime": 648,
+      "duration": 16,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "அந்த நகரில் உன்னை வரவேற்க வேண்டியவர்கள் போரில் இறந்துவிட்டால்?",
+      "textEn": "What if those who should welcome you in that city die in battle?",
+      "expectedFile": "/audio/dialogue/clip_025_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_026_nalankilli",
+      "startTime": 666,
+      "duration": 8,
+      "character": "nalankilli",
+      "speakerTa": "நலங்கிள்ளி",
+      "textTa": "என் வீரத்தைச் சந்தேகிக்கிறீரா?",
+      "textEn": "Do you doubt my valor?",
+      "expectedFile": "/audio/dialogue/clip_026_nalankilli.mp3"
+    },
+    {
+      "clipId": "clip_027_kovur_kizhar",
+      "startTime": 676,
+      "duration": 16,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "உன் வலிமையை நம்பித்தான் பேசுகிறேன். ஒரு படையை முன்னேற்றும் கையால் அதை நிறுத்தவும் முடியும்.",
+      "textEn": "I speak believing in your strength. The hand that advances an army can also halt it.",
+      "expectedFile": "/audio/dialogue/clip_027_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_028_ilangathir",
+      "startTime": 700,
+      "duration": 12,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அப்பா சரி பண்ணித் தருவார்… அவரை நாளைக்கு வீட்டுக்கு அனுப்புவீங்களா?",
+      "textEn": "Father will mend it… will you send him home tomorrow?",
+      "expectedFile": "/audio/dialogue/clip_028_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_029_ilangathir",
+      "startTime": 804,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "இரண்டு அரசர்களும் இதே பூவைத்தானே அணிகிறார்கள்?",
+      "textEn": "Both kings wear this same flower, don’t they?",
+      "expectedFile": "/audio/dialogue/clip_029_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_030_kovur_kizhar",
+      "startTime": 816,
+      "duration": 8,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "ஆம். ஆத்தி மாலை சோழரின் அடையாளம்.",
+      "textEn": "Yes. The Aathi garland is the emblem of the Cholas.",
+      "expectedFile": "/audio/dialogue/clip_030_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_031_kovur_kizhar",
+      "startTime": 884,
+      "duration": 18,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "ஒருவீர் தோற்பினும், தோற்ப நும் குடியே.",
+      "textEn": "Even if one of you loses, it is your lineage that loses.",
+      "expectedFile": "/audio/dialogue/clip_031_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_032_kovur_kizhar",
+      "startTime": 908,
+      "duration": 24,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "உங்கள் இருவரின் மாலையிலும் ஒரே பூ. உங்கள் படைகளில் நிற்பவர்களுக்கும் ஒரே மண்ணில் வேர்கள். இன்று யாருடைய வெற்றிக்காக யாருடைய வீட்டை அழிக்கப் போகிறீர்கள்?",
+      "textEn": "Both your garlands bear the same flower. The roots of both armies rest in the same earth. Today, for whose victory whose home will you destroy?",
+      "expectedFile": "/audio/dialogue/clip_032_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_033_ilangathir",
+      "startTime": 934,
+      "duration": 12,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "அப்பா! அண்ணா!",
+      "textEn": "Father! Brother!",
+      "expectedFile": "/audio/dialogue/clip_033_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_034_ilangathir",
+      "startTime": 970,
+      "duration": 14,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "இதில் எந்தப் பூ வெல்ல வேண்டும்?",
+      "textEn": "Which of these flowers should win?",
+      "expectedFile": "/audio/dialogue/clip_034_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_035_nedunkilli",
+      "startTime": 992,
+      "duration": 12,
+      "character": "nedunkilli",
+      "speakerTa": "நெடுங்கிள்ளி",
+      "textTa": "என் மக்கள் வெளியே வரட்டும். அவர்கள்மீது ஆயுதம் உயரக்கூடாது.",
+      "textEn": "Let my people come out. Let no weapon be raised against them.",
+      "expectedFile": "/audio/dialogue/clip_035_nedunkilli.mp3"
+    },
+    {
+      "clipId": "clip_036_nalankilli",
+      "startTime": 1006,
+      "duration": 12,
+      "character": "nalankilli",
+      "speakerTa": "நலங்கிள்ளி",
+      "textTa": "படைகள் பின்னால் செல்லட்டும். இது என் ஆணை.",
+      "textEn": "Let the armies pull back. This is my command.",
+      "expectedFile": "/audio/dialogue/clip_036_nalankilli.mp3"
+    },
+    {
+      "clipId": "clip_037_ilangathir",
+      "startTime": 1126,
+      "duration": 12,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "ஐயா! நீங்கள் உணவு சாப்பிட்டுப் போக வேண்டும்!",
+      "textEn": "Master! You must eat with us before you leave!",
+      "expectedFile": "/audio/dialogue/clip_037_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_038_ilangathir",
+      "startTime": 1162,
+      "duration": 10,
+      "character": "ilangathir",
+      "speakerTa": "இளங்கதிர்",
+      "textTa": "ஐயா… உங்கள் பாடலுக்கு இவ்வளவு வலிமையா?",
+      "textEn": "Master… does your poem have this much power?",
+      "expectedFile": "/audio/dialogue/clip_038_ilangathir.mp3"
+    },
+    {
+      "clipId": "clip_039_kovur_kizhar",
+      "startTime": 1173,
+      "duration": 11,
+      "character": "kovur_kizhar",
+      "speakerTa": "கோவூர் கிழார்",
+      "textTa": "அவர்கள் மறந்திருந்ததை நினைவுபடுத்தியது. எதிரே நின்றவனுக்கும் ஒரு வீடு இருக்கிறது என்பதை.",
+      "textEn": "It reminded them of what they forgot: that the one standing opposite also has a home.",
+      "expectedFile": "/audio/dialogue/clip_039_kovur_kizhar.mp3"
+    },
+    {
+      "clipId": "clip_040_narration",
+      "startTime": 1185,
+      "duration": 13,
+      "character": "narration",
+      "speakerTa": "விளக்க உரை",
+      "textTa": "அன்று ஒரு சிறுவன் விரும்பியது ஒரு நாட்டின் வெற்றியை அல்ல. தன் வீட்டில் அனைவரும் சேர்ந்து உண்ணும் ஒரு பொழுதை.",
+      "textEn": "That day, a boy did not seek the victory of an empire. Only a moment when everyone ate together in his home.",
+      "expectedFile": "/audio/dialogue/clip_040_narration.mp3"
+    }
+  ]
+}

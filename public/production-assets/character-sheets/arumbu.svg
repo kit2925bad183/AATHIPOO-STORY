@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181410"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b57954"/>
+      <stop offset="100%" stop-color="#a46845"/>
+    </linearGradient>
+    <linearGradient id="saree" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a04f32"/>
+      <stop offset="100%" stop-color="#8c4227"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — PRODUCTION CHARACTER REFERENCE SHEET</text>
+  <text x="750" y="82" fill="#a89078" font-size="20">CHARACTER: ARUMBU (அரும்பு) • WORKING MOTHER &amp; POTTER • SCALE: 1.58m (0.90x)</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">SHEET ID: CH-03-ARM</text>
+
+  <!-- Panel 1: Turnarounds A, B, C, D -->
+  <rect x="40" y="130" width="820" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="160" fill="#f59e0b" font-size="16" font-weight="600">ORTHOGRAPHIC TURNAROUND (VIEWS A, B, C, D)</text>
+
+  <!-- A: Front -->
+  <g transform="translate(110, 200)">
+    <ellipse cx="60" cy="310" rx="50" ry="8" fill="#0d0a08"/>
+    <rect x="44" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <rect x="63" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <!-- Saree skirt -->
+    <path d="M 38 180 L 82 180 L 86 295 L 34 295 Z" fill="url(#saree)"/>
+    <!-- Torso and pallu drape -->
+    <rect x="42" y="115" width="36" height="68" rx="6" fill="#a46845"/>
+    <path d="M 38 120 L 82 180 L 68 180 L 36 135 Z" fill="#5e2a16"/>
+    <ellipse cx="60" cy="78" rx="19" ry="23" fill="url(#skin)"/>
+    <!-- Hair with Sangam low bun -->
+    <path d="M 39 74 Q 60 48 81 74 Z" fill="#161210"/>
+    <circle cx="82" cy="85" r="9" fill="#161210"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">A. FRONT</text>
+  </g>
+
+  <!-- B: Left Side Profile -->
+  <g transform="translate(310, 200)">
+    <ellipse cx="60" cy="310" rx="45" ry="8" fill="#0d0a08"/>
+    <rect x="50" y="295" width="20" height="12" rx="4" fill="#a46845"/>
+    <path d="M 40 180 L 76 180 L 74 295 L 38 295 Z" fill="url(#saree)"/>
+    <rect x="42" y="115" width="30" height="68" rx="6" fill="#a46845"/>
+    <ellipse cx="58" cy="78" rx="18" ry="23" fill="url(#skin)"/>
+    <circle cx="40" cy="82" r="10" fill="#161210"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">B. LEFT PROFILE</text>
+  </g>
+
+  <!-- C: Back View -->
+  <g transform="translate(510, 200)">
+    <ellipse cx="60" cy="310" rx="50" ry="8" fill="#0d0a08"/>
+    <rect x="44" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <rect x="63" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <path d="M 38 180 L 82 180 L 86 295 L 34 295 Z" fill="url(#saree)"/>
+    <ellipse cx="60" cy="76" rx="20" ry="24" fill="#161210"/>
+    <circle cx="60" cy="92" r="11" fill="#161210"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">C. BACK VIEW</text>
+  </g>
+
+  <!-- D: Three-Quarter -->
+  <g transform="translate(710, 200)">
+    <ellipse cx="60" cy="310" rx="50" ry="8" fill="#0d0a08"/>
+    <rect x="45" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <rect x="66" y="295" width="13" height="12" rx="4" fill="#a46845"/>
+    <path d="M 38 180 L 84 180 L 84 295 L 36 295 Z" fill="url(#saree)"/>
+    <ellipse cx="62" cy="78" rx="19" ry="23" fill="url(#skin)"/>
+    <circle cx="44" cy="84" r="10" fill="#161210"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">D. 3/4 HERO ANGLE</text>
+  </g>
+
+  <!-- View E: Face Close-up -->
+  <rect x="880" y="130" width="320" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW E: FACE &amp; HAIR BUN</text>
+  <g transform="translate(930, 190)">
+    <ellipse cx="110" cy="145" rx="85" ry="105" fill="url(#skin)"/>
+    <path d="M 28 120 C 35 25, 185 25, 192 120 Z" fill="#161210"/>
+    <circle cx="198" cy="155" r="26" fill="#161210"/>
+    <!-- Strong, clear eyes -->
+    <ellipse cx="75" cy="135" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="75" cy="135" r="6" fill="#1a1008"/>
+    <ellipse cx="145" cy="135" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="145" cy="135" r="6" fill="#1a1008"/>
+    <!-- Eyebrows -->
+    <path d="M 52 112 Q 74 104 94 113" stroke="#1c140d" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 126 113 Q 146 104 168 112" stroke="#1c140d" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 90 205 Q 110 215 130 205" stroke="#8c4732" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <text x="110" y="310" fill="#a89078" font-size="12" text-anchor="middle">PRACTICAL SANGAM WORKING MOTHER</text>
+  </g>
+
+  <!-- View G: Materials -->
+  <rect x="1220" y="130" width="340" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="1240" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW G: MATERIAL SWATCHES</text>
+  <g transform="translate(1240, 185)">
+    <circle cx="25" cy="25" r="20" fill="#a46845" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="22" fill="#e5e7eb" font-size="14" font-weight="bold">Skin: Honey Brown (#a46845)</text>
+    <text x="60" y="38" fill="#9ca3af" font-size="11">Roughness: 0.60 • Natural Warmth</text>
+
+    <circle cx="25" cy="85" r="20" fill="#8c4227" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="82" fill="#e5e7eb" font-size="14" font-weight="bold">Garment: Earth Ochre (#8c4227)</text>
+    <text x="60" y="98" fill="#9ca3af" font-size="11">Roughness: 0.92 • Porous Handloom Cotton</text>
+
+    <circle cx="25" cy="145" r="20" fill="#5e2a16" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="142" fill="#e5e7eb" font-size="14" font-weight="bold">Sash: Cinnamon Accent (#5e2a16)</text>
+    <text x="60" y="158" fill="#9ca3af" font-size="11">Roughness: 0.88 • Woven Waist Drape</text>
+
+    <circle cx="25" cy="205" r="20" fill="#161210" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="202" fill="#e5e7eb" font-size="14" font-weight="bold">Hair: Matte Black Bun (#161210)</text>
+    <text x="60" y="218" fill="#9ca3af" font-size="11">Roughness: 0.72 • Tied Low Chignon</text>
+  </g>
+
+  <!-- View F: 8 Expressions -->
+  <rect x="40" y="570" width="820" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEW F: EIGHT-EXPRESSION MATRIX (STRENGTH &amp; RESTRAINT)</text>
+  <g transform="translate(60, 620)">
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <ellipse cx="32" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <path d="M 38 62 L 52 62" stroke="#8c4732" stroke-width="3"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">1. Neutral</text>
+    </g>
+    <g transform="translate(190, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 50 24 Q 60 18 70 24" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">2. Alert Curiosity</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 40 Q 32 35 36 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 54 40 Q 58 35 62 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 35 58 Q 45 68 55 58" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">3. Proud Mother</text>
+    </g>
+    <g transform="translate(570, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <!-- The Unanswerable Question -->
+      <path d="M 25 32 Q 33 26 41 30" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 49 30 Q 57 26 65 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="44" rx="4" ry="3" fill="#1a1008"/>
+      <ellipse cx="58" cy="44" rx="4" ry="3" fill="#1a1008"/>
+      <path d="M 38 65 L 52 65" stroke="#8c4732" stroke-width="3.5"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">4. Concern (Paused)</text>
+    </g>
+    <g transform="translate(0, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <circle cx="32" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="32" cy="38" r="3.5" fill="#1a1008"/>
+      <circle cx="58" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="58" cy="38" r="3.5" fill="#1a1008"/>
+      <ellipse cx="45" cy="64" rx="6" ry="7" fill="#8c4732"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">5. Fear</text>
+    </g>
+    <g transform="translate(190, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 28 L 40 33" stroke="#1c140d" stroke-width="3.5"/>
+      <path d="M 50 33 L 65 28" stroke="#1c140d" stroke-width="3.5"/>
+      <path d="M 36 62 L 54 62" stroke="#8c4732" stroke-width="3.5"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">6. Determination</text>
+    </g>
+    <g transform="translate(380, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 35 Q 33 26 40 31" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 31 Q 57 26 64 35" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 36 66 Q 45 56 54 66" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">7. Sadness</text>
+    </g>
+    <g transform="translate(570, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 41 Q 33 45 38 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 52 41 Q 57 45 62 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 35 60 Q 45 70 55 60" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">8. Relief</text>
+    </g>
+  </g>
+
+  <!-- Views H, I, J -->
+  <rect x="880" y="570" width="680" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEWS H, I, J: RIG SKELETON &amp; SIGNATURE POSES</text>
+  <g transform="translate(910, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">I. RIG HIERARCHY (34 BONES)</text>
+    <path d="M 80 45 L 80 85 L 80 140 M 80 65 L 50 85 L 35 130 M 80 65 L 110 85 L 125 130 M 80 140 L 60 195 L 60 260 M 80 140 L 100 195 L 100 260" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="80" cy="45" r="5" fill="#34d399"/>
+    <circle cx="60" cy="260" r="4" fill="#ef4444"/>
+    <circle cx="100" cy="260" r="4" fill="#ef4444"/>
+    <text x="80" y="285" fill="#9ca3af" font-size="11" text-anchor="middle">Hair Bun Joint &amp; Dual IK Constraints</text>
+  </g>
+
+  <g transform="translate(1110, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">J. SIX SIGNATURE ACTING POSES</text>
+    <text x="0" y="55" fill="#f3f4f6" font-size="13">1. <tspan fill="#f59e0b">Measuring Grain:</tspan> Freezing hand mid-air when war horns blow</text>
+    <text x="0" y="85" fill="#f3f4f6" font-size="13">2. <tspan fill="#f59e0b">Adjusting Drape:</tspan> Smoothing son's shoulder cloth with tender care</text>
+    <text x="0" y="115" fill="#f3f4f6" font-size="13">3. <tspan fill="#f59e0b">Difficult Answer:</tspan> Eyes looking down into empty hands before speaking</text>
+    <text x="0" y="145" fill="#f3f4f6" font-size="13">4. <tspan fill="#f59e0b">Pottery Guide:</tspan> Steadying Ilangathir's hands on the clay</text>
+    <text x="0" y="175" fill="#f3f4f6" font-size="13">5. <tspan fill="#f59e0b">Gate Vigil:</tspan> Rigid posture scanning the southern road</text>
+    <text x="0" y="205" fill="#f3f4f6" font-size="13">6. <tspan fill="#f59e0b">Family Embrace:</tspan> Enfolding husband and sons with grounding strength</text>
+
+    <rect x="0" y="235" width="410" height="60" fill="#14110e" rx="6" stroke="#443427"/>
+    <text x="15" y="258" fill="#d97706" font-size="12" font-weight="bold">HERO MOMENT 2 (SEQUENCE 2)</text>
+    <text x="15" y="278" fill="#9ca3af" font-size="11">"அப்பா வென்றால்… அண்ணன்?" — Stops grain work, quiet pain</text>
+  </g>
+</svg>

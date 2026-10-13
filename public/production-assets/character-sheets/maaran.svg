@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181410"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b87d55"/>
+      <stop offset="100%" stop-color="#a86d48"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b516e"/>
+      <stop offset="100%" stop-color="#2d3f56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — PRODUCTION CHARACTER REFERENCE SHEET</text>
+  <text x="750" y="82" fill="#a89078" font-size="20">CHARACTER: MAARAN (மாறன்) • CITADEL GARRISON ELDER BROTHER • SCALE: 1.70m (0.97x)</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">SHEET ID: CH-05-MRN</text>
+
+  <!-- Panel 1: Turnarounds A, B, C, D -->
+  <rect x="40" y="130" width="820" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="160" fill="#f59e0b" font-size="16" font-weight="600">ORTHOGRAPHIC TURNAROUND (VIEWS A, B, C, D)</text>
+
+  <!-- Front A -->
+  <g transform="translate(110, 190)">
+    <ellipse cx="60" cy="320" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <rect x="64" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <path d="M 38 175 L 82 175 L 86 300 L 34 300 Z" fill="url(#indigo)"/>
+    <rect x="42" y="110" width="36" height="68" rx="6" fill="#a86d48"/>
+    <!-- Indigo Sash -->
+    <path d="M 40 115 L 80 175 L 68 175 L 36 125 Z" fill="#2d3f56"/>
+    <!-- Wicker Shield on left arm -->
+    <circle cx="85" cy="180" r="22" fill="#44382e" stroke="#5a4c3f" stroke-width="2"/>
+    <ellipse cx="60" cy="74" rx="19" ry="24" fill="url(#skin)"/>
+    <!-- Short neat hair -->
+    <path d="M 41 68 Q 60 45 79 68 Z" fill="#181412"/>
+    <text x="60" y="350" fill="#9ca3af" font-size="13" text-anchor="middle">A. FRONT</text>
+  </g>
+
+  <!-- Profile B -->
+  <g transform="translate(310, 190)">
+    <ellipse cx="60" cy="320" rx="45" ry="8" fill="#0d0a08"/>
+    <rect x="50" y="305" width="20" height="12" rx="4" fill="#a86d48"/>
+    <path d="M 40 175 L 76 175 L 74 300 L 38 300 Z" fill="url(#indigo)"/>
+    <rect x="42" y="110" width="30" height="68" rx="6" fill="#a86d48"/>
+    <!-- Shield profile -->
+    <ellipse cx="78" cy="175" rx="7" ry="24" fill="#44382e"/>
+    <ellipse cx="58" cy="74" rx="18" ry="24" fill="url(#skin)"/>
+    <text x="60" y="350" fill="#9ca3af" font-size="13" text-anchor="middle">B. LEFT PROFILE</text>
+  </g>
+
+  <!-- Back C -->
+  <g transform="translate(510, 190)">
+    <ellipse cx="60" cy="320" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <rect x="64" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <path d="M 38 175 L 82 175 L 86 300 L 34 300 Z" fill="url(#indigo)"/>
+    <ellipse cx="60" cy="72" rx="20" ry="24" fill="#181412"/>
+    <text x="60" y="350" fill="#9ca3af" font-size="13" text-anchor="middle">C. BACK VIEW</text>
+  </g>
+
+  <!-- 3/4 D -->
+  <g transform="translate(710, 190)">
+    <ellipse cx="60" cy="320" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="44" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <rect x="68" y="305" width="14" height="12" rx="4" fill="#a86d48"/>
+    <path d="M 38 175 L 84 175 L 84 300 L 36 300 Z" fill="url(#indigo)"/>
+    <circle cx="86" cy="180" r="22" fill="#44382e"/>
+    <ellipse cx="62" cy="74" rx="19" ry="24" fill="url(#skin)"/>
+    <text x="60" y="350" fill="#9ca3af" font-size="13" text-anchor="middle">D. 3/4 HERO ANGLE</text>
+  </g>
+
+  <!-- View E: Face Close-up -->
+  <rect x="880" y="130" width="320" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW E: FACE &amp; YOUTH TENSION</text>
+  <g transform="translate(930, 190)">
+    <ellipse cx="110" cy="140" rx="85" ry="105" fill="url(#skin)"/>
+    <path d="M 28 110 C 35 25, 185 25, 192 110 Z" fill="#181412"/>
+    <!-- Young alert brow -->
+    <path d="M 52 110 Q 74 104 94 112" stroke="#1c140d" stroke-width="5" fill="none"/>
+    <path d="M 126 112 Q 146 104 168 110" stroke="#1c140d" stroke-width="5" fill="none"/>
+    <ellipse cx="75" cy="130" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="75" cy="130" r="6" fill="#1a1008"/>
+    <ellipse cx="145" cy="130" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="145" cy="130" r="6" fill="#1a1008"/>
+    <path d="M 90 205 Q 110 215 130 205" stroke="#8c4732" stroke-width="5" fill="none"/>
+    <text x="110" y="310" fill="#a89078" font-size="12" text-anchor="middle">YOUTHFUL SOLDIER CAUGHT IN DUTY</text>
+  </g>
+
+  <!-- View G: Materials -->
+  <rect x="1220" y="130" width="340" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="1240" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW G: MATERIAL SWATCHES</text>
+  <g transform="translate(1240, 185)">
+    <circle cx="25" cy="25" r="20" fill="#a86d48" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="22" fill="#e5e7eb" font-size="14" font-weight="bold">Skin: Medium Brown (#a86d48)</text>
+    <text x="60" y="38" fill="#9ca3af" font-size="11">Roughness: 0.55 • Smooth Young Texture</text>
+
+    <circle cx="25" cy="85" r="20" fill="#2d3f56" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="82" fill="#e5e7eb" font-size="14" font-weight="bold">Garment: Citadel Indigo (#2d3f56)</text>
+    <text x="60" y="98" fill="#9ca3af" font-size="11">Roughness: 0.88 • Fort Guard Uniform</text>
+
+    <circle cx="25" cy="145" r="20" fill="#44382e" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="142" fill="#e5e7eb" font-size="14" font-weight="bold">Shield: Wicker Leather (#44382e)</text>
+    <text x="60" y="158" fill="#9ca3af" font-size="11">Roughness: 0.70 • Sangam Buckler</text>
+  </g>
+
+  <!-- View F: 8 Expressions -->
+  <rect x="40" y="570" width="820" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEW F: EIGHT-EXPRESSION MATRIX (DUTY AND FEAR)</text>
+  <g transform="translate(60, 620)">
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <ellipse cx="32" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <path d="M 38 62 L 52 62" stroke="#8c4732" stroke-width="3"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">1. Sentinel Neutral</text>
+    </g>
+    <g transform="translate(190, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 50 24 Q 60 18 70 24" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">2. Arrow Slit Watch</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 40 Q 32 35 36 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 54 40 Q 58 35 62 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 35 58 Q 45 68 55 58" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">3. Brother Smile</text>
+    </g>
+    <g transform="translate(570, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 32 Q 33 26 41 30" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 49 30 Q 57 26 65 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="42" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <ellipse cx="58" cy="42" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">4. Concern for Brother</text>
+    </g>
+    <g transform="translate(0, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <circle cx="32" cy="38" r="7.5" fill="#ffffff"/>
+      <circle cx="32" cy="38" r="3.5" fill="#1a1008"/>
+      <circle cx="58" cy="38" r="7.5" fill="#ffffff"/>
+      <circle cx="58" cy="38" r="3.5" fill="#1a1008"/>
+      <ellipse cx="45" cy="65" rx="6" ry="7" fill="#8c4732"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">5. Fear of Father's Spear</text>
+    </g>
+    <g transform="translate(190, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 28 L 40 33" stroke="#1c140d" stroke-width="3.5"/>
+      <path d="M 50 33 L 65 28" stroke="#1c140d" stroke-width="3.5"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">6. Guarding Gate</text>
+    </g>
+    <g transform="translate(380, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 35 Q 33 26 40 31" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 31 Q 57 26 64 35" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 36 66 Q 45 56 54 66" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">7. Sadness</text>
+    </g>
+    <g transform="translate(570, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 41 Q 33 45 38 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 52 41 Q 57 45 62 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 35 60 Q 45 70 55 60" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">8. Relief</text>
+    </g>
+  </g>
+
+  <!-- Views H, I, J -->
+  <rect x="880" y="570" width="680" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEWS H, I, J: RIG SKELETON &amp; SIGNATURE POSES</text>
+  <g transform="translate(910, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">I. RIG HIERARCHY (34 BONES)</text>
+    <path d="M 80 45 L 80 85 L 80 145 M 80 65 L 45 85 L 30 135 M 80 65 L 115 85 L 130 135 M 80 145 L 58 200 L 58 265 M 80 145 L 102 200 L 102 265" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="80" cy="45" r="5" fill="#34d399"/>
+    <circle cx="58" cy="265" r="4" fill="#ef4444"/>
+    <circle cx="102" cy="265" r="4" fill="#ef4444"/>
+    <text x="80" y="290" fill="#9ca3af" font-size="11" text-anchor="middle">Left Arm Shield Pivot Constraint</text>
+  </g>
+
+  <g transform="translate(1110, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">J. SIX SIGNATURE ACTING POSES</text>
+    <text x="0" y="55" fill="#f3f4f6" font-size="13">1. <tspan fill="#f59e0b">Sentinel Stand:</tspan> Stiff military posture at citadel passage</text>
+    <text x="0" y="85" fill="#f3f4f6" font-size="13">2. <tspan fill="#f59e0b">Shield Strap Check:</tspan> Fidgeting with buckle during alert</text>
+    <text x="0" y="115" fill="#f3f4f6" font-size="13">3. <tspan fill="#f59e0b">Averting Gaze:</tspan> Unable to answer Ilangathir's questions</text>
+    <text x="0" y="145" fill="#f3f4f6" font-size="13">4. <tspan fill="#f59e0b">Softening Posture:</tspan> Dropping guard immediately around brother</text>
+    <text x="0" y="175" fill="#f3f4f6" font-size="13">5. <tspan fill="#f59e0b">Trembling Shield:</tspan> Staring at father's unit in dawn mist</text>
+    <text x="0" y="205" fill="#f3f4f6" font-size="13">6. <tspan fill="#f59e0b">Reunion Grasp:</tspan> Rushing forward to grasp brother's hand</text>
+
+    <rect x="0" y="235" width="410" height="60" fill="#14110e" rx="6" stroke="#443427"/>
+    <text x="15" y="258" fill="#d97706" font-size="12" font-weight="bold">SEQUENCE 4 &amp; SEQUENCE 9</text>
+    <text x="15" y="278" fill="#9ca3af" font-size="11">Citadel corridor encounter &amp; Post-ceasefire gate reunion</text>
+  </g>
+</svg>

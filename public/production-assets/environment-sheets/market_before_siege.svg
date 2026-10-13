@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="marketSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b4b5e"/>
+      <stop offset="60%" stop-color="#7a5538"/>
+      <stop offset="100%" stop-color="#b07842"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#14110e"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — ENVIRONMENT CONCEPT SHEET 03: MARKET STREET (PRE-SIEGE)</text>
+  <text x="960" y="82" fill="#a89078" font-size="18">PEACETIME TRADE, SANGAM COMMODITIES, &amp; DOMESTIC VERANDAS</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">ENV-03-MRKT-OPEN</text>
+
+  <!-- Perspective Render View -->
+  <g transform="translate(50, 130)">
+    <rect width="1500" height="480" fill="#4d3e30" rx="8"/>
+
+    <!-- Left Building Row (Timber & Tile Stalls) -->
+    <polygon points="50,140 180,60 310,140" fill="#8c3e27"/>
+    <rect x="80" y="140" width="200" height="180" fill="#735843"/>
+    <rect x="330" y="120" width="180" height="200" fill="#694f3b"/>
+    <polygon points="310,120 420,50 530,120" fill="#7a5538"/>
+
+    <!-- Left Veranda Cloth Awnings (Fluttering Handloom) -->
+    <path d="M 80 170 L 260 210 L 230 250 L 60 210 Z" fill="#bfa078" opacity="0.9"/>
+    <path d="M 330 150 L 490 190 L 460 230 L 310 190 Z" fill="#9e482d" opacity="0.85"/>
+
+    <!-- Left Stall Commodities (Filled grain bins, measuring pots) -->
+    <g transform="translate(100, 260)">
+      <!-- Large Earthen Grain Silo (Kudhuru) -->
+      <cylinder cx="40" cy="50" rx="30" ry="50" fill="#8a442d"/>
+      <ellipse cx="40" cy="50" rx="30" ry="12" fill="#9c4f35"/>
+      <ellipse cx="40" cy="20" rx="25" ry="10" fill="#d4b47b"/>
+      <!-- Millets label -->
+      <text x="40" y="80" fill="#fcd34d" font-size="11" font-weight="bold" text-anchor="middle">திணை / வரகு (Millets)</text>
+
+      <!-- White flower baskets (Jasmine & Aathipoo) -->
+      <ellipse cx="140" cy="50" rx="28" ry="14" fill="#6e573a"/>
+      <circle cx="140" cy="45" r="16" fill="#ffffff"/>
+      <circle cx="135" cy="42" r="3" fill="#fef08a"/>
+      <text x="140" y="80" fill="#fcd34d" font-size="11" font-weight="bold" text-anchor="middle">மலர் தட்டுகுடை (Flowers)</text>
+    </g>
+
+    <!-- Right Building Row -->
+    <polygon points="1190,140 1320,60 1450,140" fill="#8c3e27"/>
+    <rect x="1220" y="140" width="200" height="180" fill="#735843"/>
+    <rect x="970" y="120" width="210" height="200" fill="#694f3b"/>
+    <polygon points="950,120 1075,50 1200,120" fill="#7a5538"/>
+
+    <!-- Right Stall Commodities -->
+    <g transform="translate(1000, 260)">
+      <!-- Terracotta cookware stacks -->
+      <ellipse cx="60" cy="50" rx="32" ry="14" fill="#a64d30"/>
+      <ellipse cx="60" cy="38" rx="28" ry="12" fill="#ba5d3f"/>
+      <ellipse cx="60" cy="28" rx="22" ry="10" fill="#c96a4b"/>
+      <text x="60" y="80" fill="#fcd34d" font-size="11" font-weight="bold" text-anchor="middle">மண் பாண்டங்கள் (Pottery)</text>
+
+      <!-- Plantains & green gram sacks -->
+      <rect x="130" y="30" width="45" height="35" rx="6" fill="#8c7756"/>
+      <text x="152" y="80" fill="#fcd34d" font-size="11" font-weight="bold" text-anchor="middle">தானிய மூட்டை (Grains)</text>
+    </g>
+
+    <!-- Active Street Center (Wagon wheel tracks & pedestrian path) -->
+    <path d="M 600 480 L 720 180 M 800 480 L 760 180" stroke="#36281e" stroke-width="4" stroke-dasharray="12,8"/>
+    <text x="750" y="360" fill="#fcd34d" font-size="16" font-weight="bold" text-anchor="middle">உறையூர் நாலங்காடி (Uraiyur Daytime Market)</text>
+    <text x="750" y="385" fill="#d1d5db" font-size="13" text-anchor="middle">Vibrant daily commerce in morning light</text>
+  </g>
+
+  <!-- Commodity Fidelity & Anachronism Guidelines Panel -->
+  <rect x="50" y="630" width="1500" height="330" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="75" y="665" fill="#f59e0b" font-size="18" font-weight="bold">SANGAM COMMODITY RESEARCH &amp; STRICT ANACHRONISM EXCLUSIONS</text>
+
+  <g transform="translate(75, 690)">
+    <rect x="0" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="20" y="30" fill="#fcd34d" font-size="15" font-weight="bold">1. உண்மையான சங்கப் பண்டங்கள் (Verified Goods)</text>
+    <text x="20" y="60" fill="#e5e7eb" font-size="13">Primary source: <tspan fill="#f59e0b">Pattinappalai &amp; Maduraikkanji</tspan></text>
+    <text x="20" y="85" fill="#d1d5db" font-size="12">• Nel (Paddy rice), Thinai (Foxtail millet), Varagu.</text>
+    <text x="20" y="105" fill="#d1d5db" font-size="12">• Sesame oil jars, black gram, green lentils.</text>
+    <text x="20" y="125" fill="#d1d5db" font-size="12">• Coarse cotton handloom wraps and plantain leaves.</text>
+    <text x="20" y="145" fill="#d1d5db" font-size="12">• Fresh jasmine, mullai, and Aathipoo flower garlands.</text>
+    <text x="20" y="170" fill="#34d399" font-size="11">Classification: Tier A (Directly Supported)</text>
+
+    <rect x="490" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="510" y="30" fill="#fcd34d" font-size="15" font-weight="bold">2. விலக்கப்பட்ட புதிய காலப் பொருட்கள் (Strictly Omitted)</text>
+    <text x="510" y="60" fill="#ef4444" font-size="13">Strict botanical &amp; technological filters:</text>
+    <text x="510" y="85" fill="#d1d5db" font-size="12">• NO Tomatoes, potatoes, chillies, or maize (New World).</text>
+    <text x="510" y="105" fill="#d1d5db" font-size="12">• NO Modern Tamil lettering or shop signboard boards.</text>
+    <text x="510" y="125" fill="#d1d5db" font-size="12">• NO Glass storefronts or modern glazed ceramics.</text>
+    <text x="510" y="145" fill="#d1d5db" font-size="12">• Visual trade cues only (baskets, pottery shapes, cloth rolls).</text>
+    <text x="510" y="170" fill="#ef4444" font-size="11">Classification: Tier C (Omission Rule)</text>
+
+    <rect x="980" y="0" width="460" height="240" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="1000" y="30" fill="#fcd34d" font-size="15" font-weight="bold">3. வணிகக் கருவிகள் (Trade Implements)</text>
+    <text x="1000" y="60" fill="#e5e7eb" font-size="13">Archaeology: <tspan fill="#f59e0b">Uraiyur &amp; Kodumanal Weights</tspan></text>
+    <text x="1000" y="85" fill="#d1d5db" font-size="12">• Earthen grain silos (*kudhuru*) with plaster lids.</text>
+    <text x="1000" y="105" fill="#d1d5db" font-size="12">• Stone weights and wooden measuring cylinders (*marakkal*).</text>
+    <text x="1000" y="125" fill="#d1d5db" font-size="12">• Coarse reed baskets with twisted coir handles.</text>
+    <text x="1000" y="145" fill="#d1d5db" font-size="12">• Timber trestle tables set under woven grass shades.</text>
+    <text x="1000" y="170" fill="#34d399" font-size="11">Classification: Tier A / Tier B Hybrid</text>
+  </g>
+</svg>

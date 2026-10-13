@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181410"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ab7448"/>
+      <stop offset="100%" stop-color="#9a633a"/>
+    </linearGradient>
+    <linearGradient id="crimson" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9c2e27"/>
+      <stop offset="100%" stop-color="#82241e"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffc107"/>
+      <stop offset="100%" stop-color="#b38600"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — PRODUCTION CHARACTER REFERENCE SHEET</text>
+  <text x="750" y="82" fill="#a89078" font-size="20">CHARACTER: NALANKILLI (நலங்கிள்ளி) • BESIEGING CHOLA KING • SCALE: 1.82m (1.05x)</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">SHEET ID: CH-06-NLN</text>
+
+  <!-- Panel 1: Turnarounds A, B, C, D -->
+  <rect x="40" y="130" width="820" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="160" fill="#f59e0b" font-size="16" font-weight="600">ORTHOGRAPHIC TURNAROUND (VIEWS A, B, C, D)</text>
+
+  <!-- Front A -->
+  <g transform="translate(110, 185)">
+    <ellipse cx="60" cy="330" rx="60" ry="8" fill="#0d0a08"/>
+    <rect x="40" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <rect x="64" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <path d="M 34 165 L 86 165 L 90 310 L 30 310 Z" fill="url(#crimson)"/>
+    <rect x="38" y="100" width="44" height="70" rx="6" fill="#9a633a"/>
+    <!-- Bronze Breastplate with Chola Tiger -->
+    <rect x="42" y="105" width="36" height="38" rx="4" fill="url(#bronze)"/>
+    <circle cx="60" cy="124" r="9" fill="#805b00"/>
+    <!-- Aathipoo White Garland -->
+    <path d="M 42 105 Q 60 145 78 105" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <!-- Bronze Sword at hip -->
+    <line x1="28" y1="140" x2="16" y2="240" stroke="#ffc107" stroke-width="4"/>
+    <ellipse cx="60" cy="68" rx="21" ry="25" fill="url(#skin)"/>
+    <!-- Royal mustache & crown band -->
+    <path d="M 40 55 L 80 55 L 75 48 L 45 48 Z" fill="#ffc107"/>
+    <path d="M 48 78 Q 60 88 72 78 Z" fill="#181412"/>
+    <text x="60" y="360" fill="#9ca3af" font-size="13" text-anchor="middle">A. FRONT</text>
+  </g>
+
+  <!-- Profile B -->
+  <g transform="translate(310, 185)">
+    <ellipse cx="60" cy="330" rx="50" ry="8" fill="#0d0a08"/>
+    <rect x="50" y="315" width="22" height="12" rx="4" fill="#9a633a"/>
+    <path d="M 38 165 L 78 165 L 76 310 L 36 310 Z" fill="url(#crimson)"/>
+    <rect x="40" y="100" width="36" height="70" rx="6" fill="#9a633a"/>
+    <rect x="58" y="105" width="16" height="38" rx="4" fill="url(#bronze)"/>
+    <ellipse cx="58" cy="68" rx="20" ry="25" fill="url(#skin)"/>
+    <path d="M 50 55 L 76 55 L 70 48 L 54 48 Z" fill="#ffc107"/>
+    <text x="60" y="360" fill="#9ca3af" font-size="13" text-anchor="middle">B. LEFT PROFILE</text>
+  </g>
+
+  <!-- Back C -->
+  <g transform="translate(510, 185)">
+    <ellipse cx="60" cy="330" rx="60" ry="8" fill="#0d0a08"/>
+    <rect x="40" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <rect x="64" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <path d="M 32 105 L 88 105 L 86 310 L 34 310 Z" fill="url(#crimson)"/>
+    <ellipse cx="60" cy="66" rx="21" ry="25" fill="#181412"/>
+    <text x="60" y="360" fill="#9ca3af" font-size="13" text-anchor="middle">C. BACK VIEW</text>
+  </g>
+
+  <!-- 3/4 D -->
+  <g transform="translate(710, 185)">
+    <ellipse cx="60" cy="330" rx="60" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <rect x="66" y="315" width="16" height="12" rx="4" fill="#9a633a"/>
+    <path d="M 34 165 L 86 165 L 86 310 L 34 310 Z" fill="url(#crimson)"/>
+    <rect x="40" y="100" width="42" height="70" rx="6" fill="#9a633a"/>
+    <rect x="48" y="105" width="34" height="38" rx="4" fill="url(#bronze)"/>
+    <ellipse cx="62" cy="68" rx="21" ry="25" fill="url(#skin)"/>
+    <text x="60" y="360" fill="#9ca3af" font-size="13" text-anchor="middle">D. 3/4 HERO ANGLE</text>
+  </g>
+
+  <!-- View E: Face Close-up -->
+  <rect x="880" y="130" width="320" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW E: FACE &amp; BRONZE DIADEM</text>
+  <g transform="translate(930, 190)">
+    <ellipse cx="110" cy="145" rx="90" ry="110" fill="url(#skin)"/>
+    <!-- Bronze crown -->
+    <path d="M 25 80 L 195 80 L 175 60 L 45 60 Z" fill="url(#bronze)"/>
+    <polygon points="110,40 120,60 100,60" fill="#ffc107"/>
+    <!-- Chiseled features -->
+    <path d="M 48 115 L 94 122" stroke="#1c140d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 126 122 L 172 115" stroke="#1c140d" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="75" cy="135" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="75" cy="135" r="6" fill="#1a1008"/>
+    <ellipse cx="145" cy="135" rx="15" ry="9" fill="#ffffff"/>
+    <circle cx="145" cy="135" r="6" fill="#1a1008"/>
+    <!-- Imperial mustache -->
+    <path d="M 75 180 Q 110 200 145 180 Q 130 170 110 172 Q 90 170 75 180 Z" fill="#181412"/>
+    <text x="110" y="315" fill="#a89078" font-size="12" text-anchor="middle">IMPERIAL MAJESTY TRANSFORMING TO RESTRAINT</text>
+  </g>
+
+  <!-- View G: Materials -->
+  <rect x="1220" y="130" width="340" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="1240" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW G: MATERIAL SWATCHES</text>
+  <g transform="translate(1240, 185)">
+    <circle cx="25" cy="25" r="20" fill="#9a633a" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="22" fill="#e5e7eb" font-size="14" font-weight="bold">Skin: Bronze Brown (#9a633a)</text>
+    <text x="60" y="38" fill="#9ca3af" font-size="11">Roughness: 0.50 • Regal Sun-tan</text>
+
+    <circle cx="25" cy="85" r="20" fill="#82241e" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="82" fill="#e5e7eb" font-size="14" font-weight="bold">Garment: Royal Crimson (#82241e)</text>
+    <text x="60" y="98" fill="#9ca3af" font-size="11">Roughness: 0.40 • Heavy Chola Silk</text>
+
+    <circle cx="25" cy="145" r="20" fill="#ffc107" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="142" fill="#e5e7eb" font-size="14" font-weight="bold">Armor: Bronze Tiger (#ffc107)</text>
+    <text x="60" y="158" fill="#9ca3af" font-size="11">Metalness: 0.85 • Roughness: 0.25</text>
+
+    <circle cx="25" cy="205" r="20" fill="#ffffff" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="202" fill="#e5e7eb" font-size="14" font-weight="bold">Garland: Aathipoo Bloom (#ffffff)</text>
+    <text x="60" y="218" fill="#9ca3af" font-size="11">Symbol of Chola Royal Ancestry</text>
+  </g>
+
+  <!-- View F: 8 Expressions -->
+  <rect x="40" y="570" width="820" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEW F: EIGHT-EXPRESSION MATRIX (COMMAND BECOMES RESTRAINT)</text>
+  <g transform="translate(60, 620)">
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 38 60 Q 45 68 52 60" fill="#181412"/>
+      <ellipse cx="32" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="4.5" ry="3.5" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">1. Stern Authority</text>
+    </g>
+    <g transform="translate(190, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 50 24 Q 60 18 70 24" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">2. Surprised Pause</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 38 60 Q 45 70 52 60" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">3. Wisdom Smile</text>
+    </g>
+    <g transform="translate(570, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 32 Q 33 26 41 30" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 49 30 Q 57 26 65 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">4. Shame of War</text>
+    </g>
+    <g transform="translate(0, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <circle cx="32" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="32" cy="38" r="3.5" fill="#1a1008"/>
+      <circle cx="58" cy="38" r="7" fill="#ffffff"/>
+      <circle cx="58" cy="38" r="3.5" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">5. Fear of Kin Blood</text>
+    </g>
+    <g transform="translate(190, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 28 L 40 33" stroke="#1c140d" stroke-width="3.5"/>
+      <path d="M 50 33 L 65 28" stroke="#1c140d" stroke-width="3.5"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">6. Command Iron</text>
+    </g>
+    <g transform="translate(380, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 35 Q 33 26 40 31" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 31 Q 57 26 64 35" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">7. Regret</text>
+    </g>
+    <g transform="translate(570, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 41 Q 33 45 38 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 52 41 Q 57 45 62 41" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">8. Peace Ceasefire</text>
+    </g>
+  </g>
+
+  <!-- Views H, I, J -->
+  <rect x="880" y="570" width="680" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEWS H, I, J: RIG SKELETON &amp; SIGNATURE POSES</text>
+  <g transform="translate(910, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">I. RIG HIERARCHY (36 BONES)</text>
+    <path d="M 80 45 L 80 85 L 80 145 M 80 65 L 42 85 L 26 135 M 80 65 L 118 85 L 134 135 M 80 145 L 55 205 L 55 275 M 80 145 L 105 205 L 105 275" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="80" cy="45" r="5" fill="#34d399"/>
+    <circle cx="55" cy="275" r="4" fill="#ef4444"/>
+    <circle cx="105" cy="275" r="4" fill="#ef4444"/>
+    <text x="80" y="300" fill="#9ca3af" font-size="11" text-anchor="middle">Sword Sheath &amp; Cape Physics Chain</text>
+  </g>
+
+  <g transform="translate(1110, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">J. SIX SIGNATURE ACTING POSES</text>
+    <text x="0" y="55" fill="#f3f4f6" font-size="13">1. <tspan fill="#f59e0b">Commanding Glare:</tspan> Direct gaze with clenched jaw at fort</text>
+    <text x="0" y="85" fill="#f3f4f6" font-size="13">2. <tspan fill="#f59e0b">Sudden Halt:</tspan> Freezing advance as toy horse shatters</text>
+    <text x="0" y="115" fill="#f3f4f6" font-size="13">3. <tspan fill="#f59e0b">Intense Hearing:</tspan> Absorbing poet's Purananuru verse</text>
+    <text x="0" y="145" fill="#f3f4f6" font-size="13">4. <tspan fill="#f59e0b">Flower Inspection:</tspan> Gazing down at boy's two identical flowers</text>
+    <text x="0" y="175" fill="#f59e0b">5. <tspan fill="#f59e0b">Sword Return:</tspan> Deliberate slow sheathing of bronze blade</text>
+    <text x="0" y="205" fill="#f3f4f6" font-size="13">6. <tspan fill="#f59e0b">Open Palm Ceasefire:</tspan> Raising arm high to sound trumpet of retreat</text>
+
+    <rect x="0" y="235" width="410" height="60" fill="#14110e" rx="6" stroke="#443427"/>
+    <text x="15" y="258" fill="#d97706" font-size="12" font-weight="bold">HERO MOMENT 3 &amp; HERO MOMENT 4 (CLIMAX)</text>
+    <text x="15" y="278" fill="#9ca3af" font-size="11">Horse break at 698s and two flowers reveal at 968s</text>
+  </g>
+</svg>

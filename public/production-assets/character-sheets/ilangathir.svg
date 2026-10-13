@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181410"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c88b63"/>
+      <stop offset="100%" stop-color="#b87b53"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ba6f45"/>
+      <stop offset="100%" stop-color="#9a5833"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1000" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — PRODUCTION CHARACTER REFERENCE SHEET</text>
+  <text x="750" y="82" fill="#a89078" font-size="20">CHARACTER: ILANGATHIR (இளங்கதிர்) • AGE: 13 • SCALE: 1.28m (0.75x)</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">SHEET ID: CH-01-ILG</text>
+
+  <!-- Panel 1: Turnaround Views (A, B, C, D) -->
+  <rect x="40" y="130" width="820" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="160" fill="#f59e0b" font-size="16" font-weight="600">ORTHOGRAPHIC TURNAROUND (VIEWS A, B, C, D)</text>
+
+  <!-- View A: Front -->
+  <g transform="translate(110, 200)">
+    <!-- Ground indicator -->
+    <ellipse cx="60" cy="310" rx="55" ry="8" fill="#0d0a08"/>
+    <!-- Shadow -->
+    <ellipse cx="60" cy="308" rx="40" ry="5" fill="#251a13"/>
+    <!-- Feet -->
+    <rect x="42" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <rect x="64" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <!-- Dhoti -->
+    <path d="M 38 180 L 82 180 L 88 290 L 32 290 Z" fill="url(#cloth)"/>
+    <path d="M 50 180 L 60 290" stroke="#7a4224" stroke-width="2"/>
+    <!-- Torso -->
+    <rect x="42" y="110" width="36" height="72" rx="6" fill="#b87b53"/>
+    <!-- Sash -->
+    <path d="M 40 120 L 78 180 L 65 180 L 38 135 Z" fill="#e8dfcf"/>
+    <!-- Arms -->
+    <rect x="26" y="115" width="14" height="65" rx="5" fill="#b87b53"/>
+    <rect x="80" y="115" width="14" height="65" rx="5" fill="#b87b53"/>
+    <!-- Clay horse held in hand -->
+    <ellipse cx="60" cy="155" rx="16" ry="10" fill="#9c5f3b"/>
+    <rect x="52" y="145" width="8" height="12" fill="#9c5f3b"/>
+    <!-- Neck -->
+    <rect x="53" y="96" width="14" height="18" fill="#b87b53"/>
+    <!-- Head -->
+    <ellipse cx="60" cy="75" rx="20" ry="24" fill="url(#skin)"/>
+    <!-- Hair with signature curl -->
+    <path d="M 40 70 Q 60 42 80 70 Q 75 52 58 50 Q 42 56 40 70 Z" fill="#141110"/>
+    <path d="M 58 52 Q 62 65 54 68 Q 50 64 56 54 Z" fill="#141110"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">A. FRONT</text>
+  </g>
+
+  <!-- View B: Left Side Profile -->
+  <g transform="translate(310, 200)">
+    <ellipse cx="60" cy="310" rx="45" ry="8" fill="#0d0a08"/>
+    <rect x="50" y="295" width="22" height="12" rx="4" fill="#b87b53"/>
+    <path d="M 42 180 L 76 180 L 74 290 L 40 290 Z" fill="url(#cloth)"/>
+    <rect x="44" y="110" width="30" height="72" rx="6" fill="#b87b53"/>
+    <!-- Arm holding horse forward -->
+    <path d="M 55 120 Q 85 140 75 160" stroke="#b87b53" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <ellipse cx="80" cy="155" rx="14" ry="9" fill="#9c5f3b"/>
+    <ellipse cx="58" cy="75" rx="20" ry="24" fill="url(#skin)"/>
+    <!-- Hair curl in profile -->
+    <path d="M 40 68 Q 55 45 74 65 Q 68 50 56 48 Z" fill="#141110"/>
+    <path d="M 68 56 Q 74 64 68 68 Z" fill="#141110"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">B. LEFT PROFILE</text>
+  </g>
+
+  <!-- View C: Back View -->
+  <g transform="translate(510, 200)">
+    <ellipse cx="60" cy="310" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="42" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <rect x="64" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <path d="M 38 180 L 82 180 L 88 290 L 32 290 Z" fill="url(#cloth)"/>
+    <rect x="42" y="110" width="36" height="72" rx="6" fill="#b87b53"/>
+    <!-- Hair back view -->
+    <ellipse cx="60" cy="74" rx="22" ry="25" fill="#141110"/>
+    <rect x="26" y="115" width="14" height="65" rx="5" fill="#b87b53"/>
+    <rect x="80" y="115" width="14" height="65" rx="5" fill="#b87b53"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">C. BACK VIEW</text>
+  </g>
+
+  <!-- View D: Three-Quarter -->
+  <g transform="translate(710, 200)">
+    <ellipse cx="60" cy="310" rx="55" ry="8" fill="#0d0a08"/>
+    <rect x="44" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <rect x="68" y="295" width="14" height="12" rx="4" fill="#b87b53"/>
+    <path d="M 38 180 L 84 180 L 86 290 L 36 290 Z" fill="url(#cloth)"/>
+    <rect x="42" y="110" width="36" height="72" rx="6" fill="#b87b53"/>
+    <ellipse cx="64" cy="155" rx="16" ry="10" fill="#9c5f3b"/>
+    <ellipse cx="62" cy="75" rx="21" ry="24" fill="url(#skin)"/>
+    <path d="M 44 68 Q 62 44 82 66 Q 76 50 60 48 Z" fill="#141110"/>
+    <path d="M 64 50 Q 70 65 62 67 Z" fill="#141110"/>
+    <text x="60" y="340" fill="#9ca3af" font-size="13" text-anchor="middle">D. 3/4 HERO ANGLE</text>
+  </g>
+
+  <!-- Panel 2: View E - Face Close-up -->
+  <rect x="880" y="130" width="320" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW E: FACE CLOSE-UP &amp; EYES</text>
+  <g transform="translate(930, 200)">
+    <!-- Big Face -->
+    <ellipse cx="110" cy="150" rx="90" ry="110" fill="url(#skin)"/>
+    <!-- Hair and bangs curl -->
+    <path d="M 25 120 C 30 20, 190 20, 195 120 C 180 40, 40 40, 25 120 Z" fill="#141110"/>
+    <path d="M 110 40 Q 135 110 100 120 Q 80 110 105 45 Z" fill="#141110"/>
+    <!-- Uneven eyebrows -->
+    <path d="M 50 115 Q 75 105 95 116" stroke="#1c140d" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 125 118 Q 145 112 170 122" stroke="#1c140d" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Almond expressive eyes -->
+    <ellipse cx="75" cy="140" rx="16" ry="10" fill="#ffffff"/>
+    <circle cx="75" cy="140" r="7" fill="#1a1008"/>
+    <circle cx="77" cy="138" r="2.5" fill="#ffffff"/>
+    <ellipse cx="145" cy="140" rx="16" ry="10" fill="#ffffff"/>
+    <circle cx="145" cy="140" r="7" fill="#1a1008"/>
+    <circle cx="147" cy="138" r="2.5" fill="#ffffff"/>
+    <!-- Nose bridge -->
+    <path d="M 110 135 L 110 175 L 120 182" stroke="#965a36" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Mobile lips -->
+    <path d="M 90 210 Q 110 220 130 210" stroke="#8c4732" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Clay stain on cheek -->
+    <ellipse cx="150" cy="175" rx="10" ry="6" fill="#8d7768" opacity="0.6"/>
+    <text x="110" y="300" fill="#a89078" font-size="12" text-anchor="middle">SIGNATURE FORWARD CURL &amp; ASYMMETRICAL BROWS</text>
+  </g>
+
+  <!-- Panel 3: View G - Material & Color Swatches -->
+  <rect x="1220" y="130" width="340" height="420" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="1240" y="160" fill="#f59e0b" font-size="16" font-weight="600">VIEW G: MATERIAL SWATCHES</text>
+  <g transform="translate(1240, 185)">
+    <!-- Swatch 1: Skin -->
+    <circle cx="25" cy="25" r="20" fill="#b87b53" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="22" fill="#e5e7eb" font-size="14" font-weight="bold">Skin: Warm Brown (#b87b53)</text>
+    <text x="60" y="38" fill="#9ca3af" font-size="11">Roughness: 0.58 • Subsurface Scatter: Warm</text>
+
+    <!-- Swatch 2: Terracotta Dhoti -->
+    <circle cx="25" cy="85" r="20" fill="#a8623b" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="82" fill="#e5e7eb" font-size="14" font-weight="bold">Garment: Terracotta (#a8623b)</text>
+    <text x="60" y="98" fill="#9ca3af" font-size="11">Roughness: 0.88 • Handspun Cotton Texture</text>
+
+    <!-- Swatch 3: Hair -->
+    <circle cx="25" cy="145" r="20" fill="#141110" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="142" fill="#e5e7eb" font-size="14" font-weight="bold">Hair: Matte Black (#141110)</text>
+    <text x="60" y="158" fill="#9ca3af" font-size="11">Roughness: 0.70 • Stylized Tufts</text>
+
+    <!-- Swatch 4: Terracotta Clay Horse -->
+    <circle cx="25" cy="205" r="20" fill="#9c5f3b" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="202" fill="#e5e7eb" font-size="14" font-weight="bold">Prop: Fired Clay (#9c5f3b)</text>
+    <text x="60" y="218" fill="#9ca3af" font-size="11">Roughness: 0.85 • Unglazed Terracotta</text>
+
+    <!-- Swatch 5: Aathipoo Flower -->
+    <circle cx="25" cy="265" r="20" fill="#ffffff" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="262" fill="#e5e7eb" font-size="14" font-weight="bold">Flower: Aathipoo White (#ffffff)</text>
+    <text x="60" y="278" fill="#9ca3af" font-size="11">Subtle Petal Translucency • 4cm Bloom</text>
+
+    <!-- Swatch 6: Khadi Shawl -->
+    <circle cx="25" cy="325" r="20" fill="#f0e2cc" stroke="#e5c07b" stroke-width="1.5"/>
+    <text x="60" y="322" fill="#e5e7eb" font-size="14" font-weight="bold">Sash: Off-White Cream (#f0e2cc)</text>
+    <text x="60" y="338" fill="#9ca3af" font-size="11">Roughness: 0.90 • Handwoven Drape</text>
+  </g>
+
+  <!-- Panel 4: View F - 8 Expression Matrix -->
+  <rect x="40" y="570" width="820" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="60" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEW F: EIGHT-EXPRESSION MATRIX (MORPH CONTROLS)</text>
+  <g transform="translate(60, 620)">
+    <!-- 8 Expressions in 4x2 grid -->
+    <!-- 1. Neutral -->
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <ellipse cx="32" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="5" ry="4" fill="#1a1008"/>
+      <path d="M 38 62 Q 45 64 52 62" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">1. Neutral</text>
+    </g>
+    <!-- 2. Curiosity -->
+    <g transform="translate(190, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <!-- One brow raised -->
+      <path d="M 24 28 Q 32 24 40 28" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 24 Q 60 16 70 24" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="40" rx="6" ry="5" fill="#1a1008"/>
+      <ellipse cx="58" cy="40" rx="6" ry="5" fill="#1a1008"/>
+      <ellipse cx="45" cy="62" rx="4" ry="5" fill="#8c4732"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">2. Curiosity</text>
+    </g>
+    <!-- 3. Small Happiness -->
+    <g transform="translate(380, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 28 40 Q 32 35 36 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 54 40 Q 58 35 62 40" stroke="#1a1008" stroke-width="3" fill="none"/>
+      <path d="M 34 58 Q 45 70 56 58" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">3. Small Happiness</text>
+    </g>
+    <!-- 4. Concern -->
+    <g transform="translate(570, 0)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <!-- Inner brow raised -->
+      <path d="M 25 32 Q 33 26 41 30" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 49 30 Q 57 26 65 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="42" rx="5" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="42" rx="5" ry="4" fill="#1a1008"/>
+      <path d="M 38 64 Q 45 58 52 64" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">4. Concern</text>
+    </g>
+
+    <!-- 5. Fear -->
+    <g transform="translate(0, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <circle cx="32" cy="38" r="8" fill="#ffffff"/>
+      <circle cx="32" cy="38" r="4" fill="#1a1008"/>
+      <circle cx="58" cy="38" r="8" fill="#ffffff"/>
+      <circle cx="58" cy="38" r="4" fill="#1a1008"/>
+      <ellipse cx="45" cy="65" rx="7" ry="9" fill="#1a1008"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">5. Fear</text>
+    </g>
+    <!-- 6. Determination -->
+    <g transform="translate(190, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 25 28 L 40 33" stroke="#1c140d" stroke-width="4"/>
+      <path d="M 50 33 L 65 28" stroke="#1c140d" stroke-width="4"/>
+      <ellipse cx="32" cy="41" rx="5" ry="3" fill="#1a1008"/>
+      <ellipse cx="58" cy="41" rx="5" ry="3" fill="#1a1008"/>
+      <path d="M 36 62 L 54 62" stroke="#8c4732" stroke-width="4"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">6. Determination</text>
+    </g>
+    <!-- 7. Sadness -->
+    <g transform="translate(380, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 35 Q 33 26 40 31" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 31 Q 57 26 64 35" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <ellipse cx="32" cy="44" rx="4" ry="4" fill="#1a1008"/>
+      <ellipse cx="58" cy="44" rx="4" ry="4" fill="#1a1008"/>
+      <path d="M 36 66 Q 45 56 54 66" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">7. Sadness</text>
+    </g>
+    <!-- 8. Relief -->
+    <g transform="translate(570, 150)">
+      <circle cx="45" cy="45" r="38" fill="url(#skin)"/>
+      <path d="M 26 32 Q 33 30 40 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 50 32 Q 57 30 64 32" stroke="#1c140d" stroke-width="3" fill="none"/>
+      <path d="M 28 42 Q 33 46 38 42" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 52 42 Q 57 46 62 42" stroke="#1a1008" stroke-width="2.5" fill="none"/>
+      <path d="M 35 60 Q 45 70 55 60" stroke="#8c4732" stroke-width="3" fill="none"/>
+      <text x="45" y="105" fill="#d1d5db" font-size="12" text-anchor="middle">8. Relief</text>
+    </g>
+  </g>
+
+  <!-- Panel 5: View H, I, J - Rig, Props, Poses -->
+  <rect x="880" y="570" width="680" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="900" y="600" fill="#f59e0b" font-size="16" font-weight="600">VIEWS H, I, J: RIG SKELETON &amp; SIGNATURE POSES</text>
+
+  <!-- Rig Preview diagram -->
+  <g transform="translate(910, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">I. RIG HIERARCHY (34 BONES)</text>
+    <path d="M 80 50 L 80 90 L 80 140 M 80 70 L 50 90 L 40 130 M 80 70 L 110 90 L 120 130 M 80 140 L 60 190 L 60 250 M 80 140 L 100 190 L 100 250" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <!-- Bone joints -->
+    <circle cx="80" cy="50" r="5" fill="#34d399"/>
+    <circle cx="80" cy="70" r="4" fill="#34d399"/>
+    <circle cx="50" cy="90" r="4" fill="#34d399"/>
+    <circle cx="40" cy="130" r="4" fill="#34d399"/>
+    <circle cx="110" cy="90" r="4" fill="#34d399"/>
+    <circle cx="120" cy="130" r="4" fill="#34d399"/>
+    <circle cx="80" cy="140" r="5" fill="#34d399"/>
+    <circle cx="60" cy="190" r="4" fill="#34d399"/>
+    <circle cx="60" cy="250" r="4" fill="#ef4444"/>
+    <circle cx="100" cy="190" r="4" fill="#34d399"/>
+    <circle cx="100" cy="250" r="4" fill="#ef4444"/>
+    <text x="80" y="280" fill="#9ca3af" font-size="11" text-anchor="middle">Green: IK Chains • Red: Ground Lock Pins</text>
+  </g>
+
+  <!-- 6 Signature Poses List -->
+  <g transform="translate(1110, 630)">
+    <text x="0" y="20" fill="#e5e7eb" font-size="14" font-weight="bold">J. SIX SIGNATURE ACTING POSES</text>
+    <text x="0" y="55" fill="#f3f4f6" font-size="13">1. <tspan fill="#f59e0b">Curious Inquire:</tspan> Leaning forward 8°, stroking horse mane</text>
+    <text x="0" y="85" fill="#f3f4f6" font-size="13">2. <tspan fill="#f59e0b">Guarded Retreat:</tspan> Drawing horse closer to chest</text>
+    <text x="0" y="115" fill="#f3f4f6" font-size="13">3. <tspan fill="#f59e0b">Anxious Shift:</tspan> Weight transfer between feet, held breath</text>
+    <text x="0" y="145" fill="#f3f4f6" font-size="13">4. <tspan fill="#f59e0b">Shock Freeze:</tspan> Hands suspended as horse breaks on stone</text>
+    <text x="0" y="175" fill="#f3f4f6" font-size="13">5. <tspan fill="#f59e0b">Two Flowers Reveal:</tspan> Planted feet, high chin, open palms</text>
+    <text x="0" y="205" fill="#f3f4f6" font-size="13">6. <tspan fill="#f59e0b">Family Reunion:</tspan> Soft relaxed shoulders, spontaneous smile</text>
+
+    <!-- Prop status summary -->
+    <rect x="0" y="235" width="410" height="60" fill="#14110e" rx="6" stroke="#443427"/>
+    <text x="15" y="258" fill="#d97706" font-size="12" font-weight="bold">H. PROP LIFECYCLE (CLAY HORSE)</text>
+    <text x="15" y="278" fill="#9ca3af" font-size="11">Wheel (Seq 1) → Held (Seq 2-5) → Breaks at 698s (Seq 6) → Mended (Seq 10)</text>
+  </g>
+</svg>

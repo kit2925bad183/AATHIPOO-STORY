@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%" style="background:#14110e; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2430"/>
+      <stop offset="60%" stop-color="#3d2d1e"/>
+      <stop offset="100%" stop-color="#7a4e28"/>
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f4457"/>
+      <stop offset="50%" stop-color="#2d5e73"/>
+      <stop offset="100%" stop-color="#1c3b4c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frame & Background -->
+  <rect width="1600" height="1000" fill="#14110e"/>
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#3d2c1e" stroke-width="2" rx="12"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="1520" height="70" fill="#241a14" rx="8"/>
+  <text x="65" y="82" fill="#e5c07b" font-size="26" font-weight="bold">ஆத்திப்பூ — ENVIRONMENT CONCEPT SHEET 01: CITY OVERVIEW</text>
+  <text x="860" y="82" fill="#a89078" font-size="18">URAIYUR (உறையூர்) SANGAM URBAN MAP &amp; CONNECTED SIGHTLINES</text>
+  <text x="1420" y="82" fill="#d97706" font-size="14" font-family="monospace">ENV-01-URAIYUR</text>
+
+  <!-- Sky Panorama -->
+  <rect x="50" y="130" width="1500" height="420" fill="url(#skyGrad)" rx="8"/>
+
+  <!-- Kaveri River (Northern Boundary) -->
+  <path d="M 50 360 C 400 340, 900 370, 1550 350 L 1550 430 C 1000 450, 500 420, 50 430 Z" fill="url(#riverGrad)"/>
+  <text x="800" y="395" fill="#8cb9cc" font-size="16" font-weight="bold" letter-spacing="4" text-anchor="middle">காவிரி ஆறு (KAVERI RIVER FLOODPLAIN)</text>
+
+  <!-- Distant Northern Kaveri Riverbank: Potter's Craft Ward -->
+  <g transform="translate(180, 290)">
+    <!-- Potter Cottages & Thatch -->
+    <polygon points="40,50 80,20 120,50" fill="#8c3e27"/>
+    <rect x="50" y="50" width="60" height="35" fill="#5c4535"/>
+    <polygon points="130,52 170,25 210,52" fill="#7a5538"/>
+    <rect x="140" y="52" width="60" height="33" fill="#574233"/>
+    <!-- Pottery Kiln smoke wisp -->
+    <path d="M 230 45 Q 235 25 240 10 Q 248 2 244 -10" stroke="#8a7968" stroke-width="3" fill="none" opacity="0.6"/>
+    <text x="125" y="105" fill="#fcd34d" font-size="13" font-weight="bold" text-anchor="middle">குயவர் குடியிருப்பு (Potter's Ward)</text>
+    <text x="125" y="122" fill="#d1d5db" font-size="11" text-anchor="middle">Seq 1 &amp; Seq 10 (Home of Ilangathir)</text>
+  </g>
+
+  <!-- Civic Gathering Space (Manram under Marudham Tree) -->
+  <g transform="translate(680, 270)">
+    <circle cx="60" cy="40" r="38" fill="#2d5224"/>
+    <rect x="52" y="70" width="16" height="25" fill="#3b2b1d"/>
+    <ellipse cx="60" cy="95" rx="42" ry="8" fill="#504134"/>
+    <text x="60" y="118" fill="#fcd34d" font-size="13" font-weight="bold" text-anchor="middle">மன்றம் (Civic Gathering Tree)</text>
+    <text x="60" y="134" fill="#d1d5db" font-size="11" text-anchor="middle">Seq 3: Question to Kovur Kizhar</text>
+  </g>
+
+  <!-- Modest Early Tamil Shrine (Kottam) -->
+  <g transform="translate(1080, 280)">
+    <rect x="20" y="45" width="85" height="45" fill="#694d3c" stroke="#8c3e27" stroke-width="2"/>
+    <polygon points="15,45 62,18 110,45" fill="#8c3e27"/>
+    <circle cx="62" cy="70" r="4" fill="#ffaa44"/>
+    <text x="62" y="112" fill="#fcd34d" font-size="13" font-weight="bold" text-anchor="middle">கோட்டம் (Modest Shrine)</text>
+    <text x="62" y="128" fill="#d1d5db" font-size="11" text-anchor="middle">Seq 5: Arumbu's Quiet Prayer</text>
+  </g>
+
+  <!-- Massive Uraiyur Fort Ramparts (East-West defensive boundary) -->
+  <path d="M 50 430 L 1550 430 L 1550 495 L 50 495 Z" fill="#4d3b2c"/>
+  <rect x="740" y="430" width="120" height="65" fill="#291c13"/>
+  <text x="800" y="470" fill="#f59e0b" font-size="15" font-weight="bold" text-anchor="middle">உறையூர் கோட்டை வாயில் (Citadel Gates)</text>
+  <text x="800" y="488" fill="#d1d5db" font-size="11" text-anchor="middle">Closed Seq 2–8 • Opened Seq 9</text>
+
+  <!-- Southern Plains / Army Camp Outside Walls -->
+  <g transform="translate(150, 480)">
+    <!-- Tents of Nalankilli's besieging army -->
+    {[200, 360, 520, 900, 1060, 1220].map((x, i) => (
+      <polygon key={i} points={`${x},50 ${x + 35},15 ${x + 70},50`} fill="#4a3e2f"/>
+    ))}
+    <!-- Campfire embers -->
+    <circle cx="280" cy="55" r="5" fill="#f97316"/>
+    <circle cx="980" cy="55" r="5" fill="#f97316"/>
+    <text x="640" y="45" fill="#e5e7eb" font-size="13" font-weight="bold" text-anchor="middle">நலங்கிள்ளியின் பாசறை (Besieging Army Camp - Seq 5, 6)</text>
+  </g>
+
+  <!-- Technical Production Map Diagram Panel -->
+  <rect x="50" y="570" width="1500" height="390" fill="#1c1612" rx="8" stroke="#332418"/>
+  <text x="75" y="605" fill="#f59e0b" font-size="18" font-weight="bold">TOPOGRAPHICAL ZONING &amp; PRODUCTION SIGHTLINES</text>
+
+  <!-- Zone Cards -->
+  <g transform="translate(75, 630)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="340" height="150" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="18" y="30" fill="#fcd34d" font-size="15" font-weight="bold">1. வடகரை: குயவர் தெரு (Potters)</text>
+    <text x="18" y="55" fill="#d1d5db" font-size="12">• Kaveri alluvium silt clay pits</text>
+    <text x="18" y="75" fill="#d1d5db" font-size="12">• Open-air potter's wheel courtyard</text>
+    <text x="18" y="95" fill="#d1d5db" font-size="12">• Multi-tiered drying racks &amp; kiln pit</text>
+    <text x="18" y="125" fill="#9ca3af" font-size="11">Appears in: Sequence 1 &amp; Sequence 10</text>
+
+    <!-- Card 2 -->
+    <rect x="365" y="0" width="340" height="150" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="383" y="30" fill="#fcd34d" font-size="15" font-weight="bold">2. அங்காடி &amp; மன்றம் (Market &amp; Civic)</text>
+    <text x="383" y="55" fill="#d1d5db" font-size="12">• Banyan tree assembly platform (Manram)</text>
+    <text x="383" y="75" fill="#d1d5db" font-size="12">• Veranda stalls with grain bins (Kudhuru)</text>
+    <text x="383" y="95" fill="#d1d5db" font-size="12">• Closed stalls in siege; revived in peace</text>
+    <text x="383" y="125" fill="#9ca3af" font-size="11">Appears in: Sequence 2, 3, &amp; 9</text>
+
+    <!-- Card 3 -->
+    <rect x="730" y="0" width="340" height="150" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="748" y="30" fill="#fcd34d" font-size="15" font-weight="bold">3. கோட்டம் (Modest Early Shrine)</text>
+    <text x="748" y="55" fill="#d1d5db" font-size="12">• Low brick enclosure without gopuram</text>
+    <text x="748" y="75" fill="#d1d5db" font-size="12">• Raised granite threshold flower altar</text>
+    <text x="748" y="95" fill="#d1d5db" font-size="12">• Terracotta oil lamps (Agal Vilakku)</text>
+    <text x="748" y="125" fill="#9ca3af" font-size="11">Appears in: Sequence 5 (Arumbu prayer)</text>
+
+    <!-- Card 4 -->
+    <rect x="1095" y="0" width="340" height="150" fill="#241a14" rx="6" stroke="#443427"/>
+    <text x="1113" y="30" fill="#fcd34d" font-size="15" font-weight="bold">4. கோட்டை &amp; பாசறை (Fort &amp; Camp)</text>
+    <text x="1113" y="55" fill="#d1d5db" font-size="12">• Timber-faced earthen ramparts</text>
+    <text x="1113" y="75" fill="#d1d5db" font-size="12">• Besieging bivouacs and forges</text>
+    <text x="1113" y="95" fill="#d1d5db" font-size="12">• Truce ground with blooming Aathi tree</text>
+    <text x="1113" y="125" fill="#9ca3af" font-size="11">Appears in: Sequence 2, 4, 5, 7, 8, 9</text>
+  </g>
+
+  <!-- Research & Architectural Constraints Banner -->
+  <g transform="translate(75, 805)">
+    <rect x="0" y="0" width="1435" height="130" fill="#14100c" rx="6" stroke="#38281b"/>
+    <text x="25" y="30" fill="#f59e0b" font-size="14" font-weight="bold">HISTORICAL INTEGRITY &amp; EXCLUSION RULES:</text>
+    <text x="25" y="55" fill="#e5e7eb" font-size="12">1. <tspan fill="#fcd34d">No Medieval Anachronisms:</tspan> Strictly zero medieval multi-storey stone gopurams or pillared mandapas (pre-Pallava/pre-imperial Chola period).</text>
+    <text x="25" y="75" fill="#e5e7eb" font-size="12">2. <tspan fill="#fcd34d">Botanical Rigor:</tspan> No New World produce (tomatoes, chillies, potatoes). Native millets, plantains, jackfruit, sesame, and paddy only.</text>
+    <text x="25" y="95" fill="#e5e7eb" font-size="12">3. <tspan fill="#fcd34d">Spatial Determinism:</tspan> River always to the North, Fort Rampart dividing inner/outer zones, Dawn light breaking from the East in Sequence 8.</text>
+  </g>
+</svg>
